@@ -1,5 +1,12 @@
-print_check_inventory <- function(language,type,lang,trailing = TRUE){
-  for (t in lang[[language]][[type]]){
+print_check_inventory_text <- function(langNum,type,trailing = TRUE){
+  
+  if (type == "entities") {
+    c_list = getConceptList_Entities(langNum)
+  } else {
+    c_list = getConceptList_Relationships(langNum)
+  }
+
+  for (t in c_list) {
     cat(paste0("- ",t,"\n"))
   }
   if (trailing == TRUE){
@@ -9,8 +16,11 @@ print_check_inventory <- function(language,type,lang,trailing = TRUE){
   }
 }
 
-getConfig <- function(item){
-  config %>% filter(name==item) %>% pull(value)
+
+print_getImgTag <- function(langID, caseID, itemID, conceptID, conceptDescr){
+  fileName = paste0(langID,"-",caseID,"-",itemID,"-",conceptID,".png")
+  text = paste0('<img src="',getConfig("img_url"),fileName,'" style="height:100px" title="',conceptDescr,'">')
+  return (text)
 }
 
 
@@ -18,9 +28,15 @@ print_check_inventory <- function(caseNum,itemNum,langNum,type,image = FALSE,tra
   conceptList = concepts_df %>% filter(langID == langNum, conceptType == type) %>% select(conceptID,conceptDescr)
   for (t in (1:nrow(conceptList))){
     if (image) {
-      fileName = paste0(langNum,"-",caseNum,"-",itemNum,"-",conceptList[t,"conceptID"],".png")
-      text = paste0("<img src='",getConfig("img_url"),fileName,"' style='height:100px' title='",conceptList[t,"conceptDescr"],"'>")
-      cat(paste0("- ",text,"\n"))  
+      #text = print_getImgTag(langNum,caseNum,itemNum,conceptList[t,"conceptID"],conceptList[t,"conceptDescr"])
+      #
+      # F I X  T H I S !!!!
+      #
+      text = print_getImgTag(langNum,caseNum,1,conceptList[t,"conceptID"],conceptList[t,"conceptDescr"])
+      #                                 !!! ^ !!!
+      #
+      #
+      cat(paste0("- ",text,"\n"))
     } else {
       cat(paste0("- ",conceptList[t,"conceptDescr"],"\n"))  
     }
@@ -34,6 +50,19 @@ print_check_inventory <- function(caseNum,itemNum,langNum,type,image = FALSE,tra
 }
 
 
+
+
+#
+#
+# C O N F I G U R A T I O N
+#
+#
+
+
+getConfig <- function(item){
+  config %>% filter(name==item) %>% pull(value)
+}
+
 getYoutubeURL <- function(code){
   return(paste0("https://www.youtube.com/watch?v=",code))
 }
@@ -43,20 +72,28 @@ getYoutubeURL <- function(code){
 # Case-related functions
 #
 
-getCaseHeader <- function(caseNum,summary){
+getCaseHeader <- function(caseNum){
   str = cases_df %>% filter(caseID==caseNum) %>% pull(caseHeader)
   return(eval(parse(text = str)))
 }
 
-getCaseText <- function(caseNum,summary){
+getCaseText <- function(caseNum){
   return(cases_df %>% filter(caseID==caseNum) %>% pull(caseText))
 }
 
-getCaseVideoCode <- function(caseNum,summary){
+getCaseTitle <- function(caseNum){
+  return(cases_df %>% filter(caseID==caseNum) %>% pull(caseTitle))
+}
+
+getCaseTitles <- function(){
+  return(cases_df %>% pull(caseTitle))
+}
+
+getCaseVideoCode <- function(caseNum){
   return(cases_df %>% filter(caseID==caseNum) %>% pull(vCode))
 }
 
-getClassificationHeader <- function(caseNum,language){
+getClassificationHeader <- function(caseNum){
   str = cases_df %>% filter(caseID==caseNum) %>% pull(classifHeader)
   return(eval(parse(text = str)))
 }
@@ -95,6 +132,10 @@ getLangCodeList <- function(){
   return (unique(lang_df$langID))
 }
 
+getLangCheatSheetURL <- function(langNum) {
+  return(lang_df %>% filter(langID==langNum) %>% pull(urlAll))
+}
+
 getLangCheatSheetURL_Entities <- function(langNum) {
   return(lang_df %>% filter(langID==langNum) %>% pull(urlEntities))
 }
@@ -103,19 +144,34 @@ getLangCheatSheetURL_Relationships <- function(langNum) {
   return(lang_df %>% filter(langID==langNum) %>% pull(urlRelationships))
 }
 
+getLangExamples <- function(langNum) {
+  return(lang_df %>% filter(langID==langNum) %>% pull(examples))
+}
 
+getConceptList_Entities <- function(langNum){
+  return(concepts_df %>% filter(langID == langNum,conceptType == "entity") %>% pull(conceptDescr))
+}
 
+getConceptList_Relationships <- function(langNum){
+  return(concepts_df %>% filter(langID == langNum,conceptType == "relationship") %>% pull(conceptDescr))
+}
 
-#
-# Loading Language and Concepts
-#
+getConceptDefinitions_Entities <- function(langNum){
+  return(concepts_df %>% filter(langID == langNum, conceptType == "entity") %>% pull(definition))
+}
 
+getConceptExamples_Entities <- function(langNum){
+  return(concepts_df %>% filter(langID == langNum, conceptType == "entity") %>% pull(trainingExample))
+}
 
-concepts_df <- read_excel("../Config/config.xlsx", sheet = "Concepts")
-lang_df <- read_excel("../Config/config.xlsx", sheet = "Languages")
-config <- read_excel("../Config/config.xlsx", sheet = "Config")
-cases_df <- read_excel("../Config/config.xlsx", sheet = "Cases")
-items_df <- read_excel("../Config/config.xlsx", sheet = "Items")
+getConceptDefinitions_Relationships <- function(langNum){
+  return(concepts_df %>% filter(langID == langNum, conceptType == "relationship") %>% pull(definition))
+}
+
+getConceptExamples_Relationships <- function(langNum){
+  return(concepts_df %>% filter(langID == langNum, conceptType == "relationship") %>% pull(trainingExample))
+}
+
 
 
 
@@ -124,19 +180,19 @@ items_df <- read_excel("../Config/config.xlsx", sheet = "Items")
 #
 
 
-entity_names = NULL
-relationship_names = NULL
-summary = NULL
+#entity_names = NULL
+#relationship_names = NULL
+#summary = NULL
 
-for (l in getLangCodeList()) {
+#for (l in getLangCodeList()) {
 
-    entity_names[[l]] = concepts_df %>% filter(langID == l,conceptType == "entity") %>% pull(conceptDescr)
+    #entity_names[[l]] = concepts_df %>% filter(langID == l,conceptType == "entity") %>% pull(conceptDescr)
   
-    relationship_names[[l]] = concepts_df %>% filter(langID == l,conceptType == "relationship") %>% pull(conceptDescr)
+    #relationship_names[[l]] = concepts_df %>% filter(langID == l,conceptType == "relationship") %>% pull(conceptDescr)
   
-    summary[[l]] = paste0("(",paste0(entity_names[[l]][c(1,2)], collapse=", "),", ",relationship_names[[l]][c(1)],", etc.)")
+    #summary[[l]] = paste0("(",paste0(entity_names[[l]][c(1,2)], collapse=", "),", ",relationship_names[[l]][c(1)],", etc.)")
 
-}
+#}
 
 
 #

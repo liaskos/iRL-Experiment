@@ -2,80 +2,76 @@
 source("Library.R")
 source("Preliminary.R")
 
+
 # Preliminary --------------------------------------------
+print_preliminary <- function(langNum, 
+                              entity_definition_sample, 
+                              entity_examples_sample,
+                              relationship_definition_sample,
+                              relationship_example_sample){
+  
+  cat("scale: ",paste0(langNum,"-entities\n"))
+  print_check_inventory_text(langNum,"entities")
+  
+  cat("scale: ",paste0(langNum,"-relationships\n"))
+  print_check_inventory_text(langNum,"relationships")
 
-print_preliminary <- function(language) {
+  cat("scale: ",paste0(langNum,"-entities-test\n"))
+  print_check_inventory_text(langNum,"entities",FALSE)
   
-  cat("scale: ",paste0(language,"-concepts\n"))
-  print_check_inventory(language,"concepts",lang)
-  
-  cat("scale: ",paste0(language,"-relationships\n"))
-  print_check_inventory(language,"relationships",lang)
-
-  cat("scale: ",paste0(language,"-concepts-test\n"))
-  print_check_inventory(language,"concepts",lang,FALSE)
-  
-  cat("scale: ",paste0(language,"-relationships-test\n"))
-  print_check_inventory(language,"relationships",lang,FALSE)
+  cat("scale: ",paste0(langNum,"-relationships-test\n"))
+  print_check_inventory_text(langNum,"relationships",FALSE)
 
   cat("l: intro_descr\n")
   cat("t: youtube\n")
-  cat("q: <h2>Overview</h2> Thank you again for agreeing to participate. Please watch the following short video with an overview of this experiment. If embedded video does not load, you can  <a href='",introvid_url,"' target=\"_blank\">watch it directly on Youtube</a> \n")
-  cat(paste0("- ",introvid_code,"\n\n"))
+  cat("q: <h2>Overview</h2> Thank you again for agreeing to participate. Please watch the following short video with an overview of this experiment. If embedded video does not load, you can  <a href='",getYoutubeURL(getConfig("intro")),"' target=\"_blank\">watch it directly on Youtube</a> \n")
+  cat(paste0("- ",getConfig("intro"),"\n\n"))
   
   cat("l: vid1\n")
   cat("t: youtube\n")
-  cat(paste0("q: <h2>",lang_names[language],"</h2>To start please watch the following video presentation about <b>",lang_names[language],"</b>. If embedded video does not load, you can  <a href='",video[language],"' target=\"_blank\">watch it directly on Youtube</a> \n"))
-  cat(paste0("- ",video_code[language],"\n\n"))
+  cat(paste0("q: <h2>",getLangName(langNum),"</h2>To start please watch the following video presentation about <b>",getLangName(langNum),"</b>. If the embedded video does not load, you can  <a href='",getYoutubeURL(getLanguageVideoCode(langNum)),"' target=\"_blank\">watch it directly on Youtube</a> \n"))
+  cat(paste0("- ",getLanguageVideoCode(langNum),"\n\n"))
   
   cat("page: begin\n\n")
   cat("l: conceptUnderstandingInfo\n")
   cat("t: info\n")
-  cat(paste0('q: <h2>Comprehension Questions</h2> Based on what you learned in the video, answer the following questions. You can always <a href=\"',video[language],'" target=\"_blank\">watch the video again</a> (opens in new window) or refer to <a href=\"',url_concepts[language],'\" target=\"popup\" onclick=\"window.open(\'', url_concepts[language],'\',\'popup\',\'width=600,height=400\');return false;"> this short "cheat-sheet"</a>  (pops-up a window).\n\n'))
+  cat(paste0('q: <h2>Comprehension Questions</h2> Based on what you learned in the video, answer the following questions. You can always <a href=\"',getYoutubeURL(getLanguageVideoCode(langNum)),'" target=\"_blank\">watch the video again</a> (opens in new window) or refer to <a href=\"',getLangCheatSheetURL(langNum),'\" target=\"popup\" onclick=\"window.open(\'',getLangCheatSheetURL(langNum),'\',\'popup\',\'width=600,height=400\');return false;"> this short "cheat-sheet"</a>  (pops-up a window).\n\n'))
   
   
-  
-  correct_code_cd = list(gmo = c(3,2,1),
-                         gme = c(2,1,3))
-  cat("l: conceptUnderstandingDefn\n")  
-  cat("t: scale ",paste0(language,"-concepts-test\n"))
+  cat("l: entityUnderstandingDefn\n")  
+  cat("t: scale ",paste0(langNum,"-entities-test\n"))
   cat("o: random\n")
-  cat("q: Please match each of the following definitions with the concept it defines.\n")
-  for (t in (names %>% filter (Type == "concept", Language == language) %>% pull(Definition))[correct_code_cd[[language]]]){
+  cat("q: Please match each of the following definitions with the entity it defines.\n")
+  for (t in getConceptDefinitions_Entities(langNum)[entity_definition_sample]) {
     cat("- ", t," \n")
   }
   cat("\n")
   
-  correct_code_ce = list(gmo = c(1,3,2),
-                         gme = c(1,2,3))
-  cat("l: conceptUnderstandingExample\n")  
-  cat("t: scale ",paste0(language,"-concepts-test\n"))
+  cat("l: entityUnderstandingExample\n")  
+  cat("t: scale ",paste0(langNum,"-entities-test\n"))
   cat("o: random\n")
-  cat("q: Please match each of the following examples with the concept it exemplifies.\n")
-  for (t in (names %>% filter (Type == "concept", Language == language) %>% pull(Example))[correct_code_ce[[language]]]){
+  cat("q: Please match each of the following examples with the entity it exemplifies.\n")
+  for (t in getConceptExamples_Entities(langNum)[entity_examples_sample]) {
     cat("- ", t," \n")
   }
   cat("\n")
   
-  correct_code_rd = list(gmo = c(2,1,4,3),
-                         gme = c(4,3,1,2))
+  
   cat("l: relationshipUnderstandingDefn\n")  
-  cat("t: scale ",paste0(language,"-relationships-test\n"))
+  cat("t: scale ",paste0(langNum,"-relationships-test\n"))
   cat("o: random\n")
   cat("q: Please match each of the following definitions with the relationship it defines.\n")
-  for (t in (names %>% filter (Type == "relationship", Language == language) %>% pull(Definition))[correct_code_rd[[language]]]){
+  for (t in getConceptDefinitions_Relationships(langNum)[relationship_definition_sample]) {
     cat("- ", t," \n")
   }
   cat("\n")
   
-  
-  correct_code_re = list(gmo = c(2,4,1,3),
-                         gme = c(1,4,3,2))
+
   cat("l: relationshipUnderstandingExample\n")  
-  cat("t: scale ",paste0(language,"-relationships-test\n"))
+  cat("t: scale ",paste0(langNum,"-relationships-test\n"))
   cat("o: random\n")
   cat("q: Please match each of the following examples with the relationship it exemplifies.\n")
-  for (t in (names %>% filter (Type == "relationship", Language == language) %>% pull(Example))[correct_code_re[[language]]]){
+  for (t in getConceptExamples_Relationships(langNum)[relationship_example_sample]) {
     cat("- ", t," \n")
   }
   cat("\n")
@@ -104,15 +100,15 @@ print_observational_check <- function(langID, caseID, key){
   cat("q: ",getCaseText(caseID),"\n\n")
 
   
-  cat(paste0("l: concepts_",caseID,"\n"))
+  cat(paste0("l: entities_",caseID,"\n"))
   cat("t: info\n")
-  cat(paste0('q: <h4>Concepts</h4> Based on what you learned in the video and the information in the above passage, classify each of the following expressions to <b>one or more concepts</b> that best describe it. You can always <a href=\"',getYoutubeURL(getLanguageVideoCode(langID)),'" target=\"_blank\">watch the vocabulary presentation video again</a> (opens in new window) or refer to <a href=\"',getLangCheatSheetURL_Entities(langID),'\" target=\"popup\" onclick=\"window.open(\'', getLangCheatSheetURL_Entities(langID),'\',\'popup\',\'width=600,height=400\');return false;"> this short "cheat-sheet"</a>  (pops-up a window). Please check <b>None of the above</b> if you think that none of the listed concepts describes the expression well. \n\n'))
+  cat(paste0('q: <h4>Entities</h4> Based on what you learned in the video and the information in the above passage, classify each of the following expressions to <b>one or more entities</b> that best describe it. You can always <a href=\"',getYoutubeURL(getLanguageVideoCode(langID)),'" target=\"_blank\">watch the vocabulary presentation video again</a> (opens in new window) or refer to <a href=\"',getLangCheatSheetURL_Entities(langID),'\" target=\"popup\" onclick=\"window.open(\'', getLangCheatSheetURL_Entities(langID),'\',\'popup\',\'width=600,height=400\');return false;"> this short "cheat-sheet"</a>  (pops-up a window). Please check <b>None of the above</b> if you think that none of the listed concepts describes the expression well. \n\n'))
   
   #cat("random: begin\n\n")
   
   
   for (i in (1:nrow(getCaseItems_Entities(caseID,langID)))) {
-    cat(paste0("l: ",langID,"_",caseID,"_",i,"\n"))
+    cat(paste0("l: ",langID,"_ent_",caseID,"_",i,"\n"))
     cat(paste0("t: check\n"))
     cat(paste0("o: require 1\n"))
     cat(paste0('q: <i>"',getCaseItems_Entities(caseID,langID)[i,"item_text"], '"</i>\n'))
@@ -122,7 +118,7 @@ print_observational_check <- function(langID, caseID, key){
 
     cset = c(cList %>% pull(conceptID),"None")
     for (j in 1:(length(cset))) {
-      key = key %>% add_row(psy_item = paste0(langID,"_",caseID,"_",i,":",j),
+      key = key %>% add_row(psy_item = paste0(langID,"_ent_",caseID,"_",i,":",j),
                             item = paste0(caseID,"_item",i,"_concepts"), 
                             item_full = getCaseItems_Entities(caseID,langID)[[i,"item_text"]],
                             description = caseID, 
@@ -146,7 +142,7 @@ print_observational_check <- function(langID, caseID, key){
   
   
   for (i in (1:nrow(getCaseItems_Relationships(caseID,langID)))) {
-    cat(paste0("l: ",langID,"_",caseID,"_",i,"\n"))
+    cat(paste0("l: ",langID,"_rel_",caseID,"_",i,"\n"))
     cat(paste0("t: check\n"))
     cat(paste0("o: require 1\n"))
     cat(paste0('q: <i>"',getCaseItems_Relationships(caseID,langID)[i,"item_text"], '"</i>\n'))
@@ -156,7 +152,7 @@ print_observational_check <- function(langID, caseID, key){
     
     cset = c(cList %>% pull(conceptID),"None")
     for (j in 1:(length(cset))) {
-      key = key %>% add_row(psy_item = paste0(langID,"_",caseID,"_",i,":",j),
+      key = key %>% add_row(psy_item = paste0(langID,"_rel_",caseID,"_",i,":",j),
                             item = paste0(caseID,"_item",i,"_relationships"), 
                             item_full = getCaseItems_Relationships(caseID,langID)[[i,"item_text"]],
                             description = caseID, 
@@ -174,47 +170,49 @@ print_observational_check <- function(langID, caseID, key){
   return(key)
 }
 
-
-
-print_overlap <- function(language, key_att){
+print_overlap <- function(langNum, key_att){
 
   # Overlap ---------
   
   cat("page: begin\n\n")
   
-  example = paste0(
-    "(", paste(lang[[language]][["concepts"]][c(1,2)],collapse =","),"), ",
-    "(", paste(lang[[language]][["concepts"]][c(2,3)],collapse =","),"), ",
-    "(", paste(lang[[language]][["relationships"]][c(1,2)],collapse =","),")"
-  )
+#  example = paste0(
+#    "(", paste(lang[[language]][["concepts"]][c(1,2)],collapse =","),"), ",
+#    "(", paste(lang[[language]][["concepts"]][c(2,3)],collapse =","),"), ",
+#    "(", paste(lang[[language]][["relationships"]][c(1,2)],collapse =","),")"
+#  )
   
   cat("l: overlap_dir\n")
   cat("t: youtube\n")
-  cat(paste0("q: <h2>Overlap</h2>Please watch the following video with directions about this page. If embedded video does not load, you can  <a href='",dirvideo["overlap"],"' target=\"_blank\">watch it directly on Youtube</a>\n"))
-  cat(paste0("- ",dirvideo_code["overlap"],"\n\n"))
+  cat(paste0("q: <h2>Overlap</h2>Please watch the following video with directions about this page. If embedded video does not load, you can  <a href='",getURL(getConfig("overlap")),"' target=\"_blank\">watch it directly on Youtube</a>\n"))
+  cat(paste0("- ",getConfig("overlap")),"\n\n")
     
   cat("l: conceptOverlap\n")
   cat("t: range\n")
-  cat('q: <h3>Overlap Assessment</h3> Consider <b>pairs</b> of the modeling concepts and relationships discussed earlier: <b>',example,'</b> etc. For each pair, rate how much you think the two concepts in the pair <b>overlap</b>, i.e., refer to the same thing. Choose any level from 0 to 10, between <b>No Overlap</b> (0, they concepts in the pair are completely distinct) and <b>Complete Overlap</b> (10, the concepts in the pair refer to the same thing in different words).')
-  cat('You can review the language again by referring to <a href=\"',video[language],'\" target=\"_blank\">the previous video</a> (opens in new window) or to <a href=\"',url_concepts[language],'\" target=\"popup\" onclick=\"window.open(\'',url_concepts[language],"','popup','width=600,height=400');return false;\"> the cheat-sheet</a> (pops-up a window).\n")
+  cat('q: <h3>Overlap Assessment</h3> Consider <b>pairs</b> of the modeling entities and relationships discussed earlier: <b>',getLangExamples(langNum),'</b> etc. For each pair, rate how much you think the two concepts in the pair <b>overlap</b>, i.e., refer to the same thing. Choose any level from 0 to 10, between <b>No Overlap</b> (0, the concepts in the pair are completely distinct) and <b>Complete Overlap</b> (10, the concepts in the pair refer to the same thing in different words).')
+  cat('You can review the language again by referring to <a href=\"',getURL(getLanguageVideoCode(langNum)),'\" target=\"_blank\">the previous video</a> (opens in new window) or to <a href=\"',getLangCheatSheetURL(langNum),'\" target=\"popup\" onclick=\"window.open(\'',getLangCheatSheetURL(langNum),"','popup','width=600,height=400');return false;\"> the cheat-sheet</a> (pops-up a window).\n")
   
   k = 1
-  for (i in 1:(length(lang[[language]][["concepts"]])-1)) {
-    for (j in (i+1):length(lang[[language]][["concepts"]])){
-      cat("- {min=0,max=10,left=No Overlap,right=Complete Overlap,start=0} <u><b>",lang[[language]][["concepts"]][i],"</b></u> and <u><b>",lang[[language]][["concepts"]][j],"</b></u>\n")
+  c_list = getConceptList_Entities(langNum)
+  for (i in 1:(length(c_list)-1)) {
+    for (j in (i+1):length(c_list)){
+      cat("- {min=0,max=10,left=No Overlap,right=Complete Overlap,start=0} <u><b>",c_list[i],"</b></u> and <u><b>",c_list[j],"</b></u>\n")
+      #cat(c_list[i],"-",c_list[j],"\n")
       key_att = key_att %>% add_row(psy_item = paste0("conceptOverlap:",k),
-                                    language = language,
-                                    concept = paste0(lang[[language]][["concepts"]][i],"-",lang[[language]][["concepts"]][j]))
+                                    language = langNum,
+                                    concept = paste0(c_list[i],"-",c_list[j]))
       k = k + 1
     }
   }
   
-  for (i in 1:(length(lang[[language]][["relationships"]])-1)) {
-    for (j in (i+1):length(lang[[language]][["relationships"]])){
-      cat("- {min=0,max=10,left=No Overlap,right=Complete Overlap,start=0} <u><b>",lang[[language]][["relationships"]][i],"</b></u> and <u><b>",lang[[language]][["relationships"]][j],"</b></u>\n")
+  r_list = getConceptList_Relationships(langNum)
+  for (i in 1:(length(r_list)-1)) {
+    for (j in (i+1):length(r_list)) {
+      cat("- {min=0,max=10,left=No Overlap,right=Complete Overlap,start=0} <u><b>",r_list[i],"</b></u> and <u><b>",r_list[j],"</b></u>\n")
+      #cat(r_list[i],"-",r_list[j],"\n")
       key_att = key_att %>% add_row(psy_item = paste0("conceptOverlap:",k),
-                                    language = language,
-                                    concept = paste0(lang[[language]][["relationships"]][i],"-",lang[[language]][["relationships"]][j]))
+                                    language = langNum,
+                                    concept = paste0(r_list[i],"-",r_list[j]))
       k = k + 1
     }
   }
@@ -231,30 +229,42 @@ print_self_reporting <- function(language, key_att){
   
   cat("l: relevanceDescr\n")
   cat("t: youtube\n")
-  cat("q: <h2>Relevance</h2>Please watch the following video with directions about this page.If embedded video does not load, you can  <a href='",dirvideo["relevance"],"' target=\"_blank\">watch it directly on Youtube</a>\n")
-  cat(paste0("- ",dirvideo_code["relevance"], "\n\n"))
+  cat("q: <h2>Relevance</h2>Please watch the following video with directions about this page.If embedded video does not load, you can  <a href='",getYoutubeURL(getConfig("relevance")),"' target=\"_blank\">watch it directly on Youtube</a>\n")
+  cat(paste0("- ",getConfig("relevance"), "\n\n"))
   
+  s_list = getCaseTitles()
+  s_list_summary = paste0(s_list,collapse = ", ")
+  casez = ifelse(length(s_list)==1, "case", paste0(english(length(s_list))," cases"))
   
-  cat("l: conceptRelevance\n")
+  e_list = getConceptList_Entities(langNum)
+  e_list_summary = paste0(paste0(e_list[c(1,2,3)],collapse = ", "), ", etc.")
+  
+  cat("l: EntityRelevance\n")
   cat("t: range\n")
-  cat('q: <h3>Concept Relevance</h3> Consider the modeling <b>concepts</b> discussed earlier (<b>',paste0(lang[[language]][["concepts"]],collapse = ", "),'</b>). Consider also the two cases you studied (Heather\'s store and Kim\'s travels). Rate how <b>relevant</b> you find each concept to what is presented in the two cases. You may review again the cases <a href=\"',cases,'\" target=\"_blank\">here</a> (opens in new window). You may review the vocabulary again by referring to <a href=\"',video[language],'\" target=\"_blank\">the vocabulary presentation video</a> (opens in new window) or to <a href=\"',url_concepts[language],'\" target=\"popup\" onclick=\"window.open(\'',url_concepts[language],"','popup','width=600,height=400');return false;\"> the cheat-sheet</a> (pops-up a window).\n")
-  for(i in 1:length(lang[[language]][["concepts"]])) {
-    cat("- {min=0,max=10,left=Not at all relevant,right=Very relevant,start=5} Relevance of concept <u><b>",lang[[language]][["concepts"]][i],"</b></u> in the cases\n")
-    key_att = key_att %>% add_row(psy_item = paste0("conceptRelevance:",i), 
+  cat('q: <h3>Entity Relevance</h3> Consider the modeling <b>entities</b> discussed earlier (',e_list_summary,'). Consider also the ',casez,' you studied (',s_list_summary,'). Rate how <b>relevant</b> you find each entity to what is presented in the',casez,'. You may review again the ',casez,' <a href=\"',getConfig("cases_url"),'\" target=\"_blank\">here</a> (opens in new window). You may review the vocabulary again by referring to <a href=\"',getYoutubeURL(getLanguageVideoCode(langNum)),'\" target=\"_blank\">the vocabulary presentation video</a> (opens in new window) or to <a href=\"',getLangCheatSheetURL_Entities(langNum),'\" target=\"popup\" onclick=\"window.open(\'',getLangCheatSheetURL_Entities(langNum),"','popup','width=600,height=400');return false;\"> the cheat-sheet</a> (pops-up a window).\n", sep="")
+  
+  for(i in 1:length(e_list)) {
+    cat("- {min=0,max=10,left=Not at all relevant,right=Very relevant,start=5} Relevance of entity <u><b>",c_list[i],"</b></u> in the case(s)\n")
+    key_att = key_att %>% add_row(psy_item = paste0("entityRelevance:",i), 
                                   language = language,
-                                  concept = lang[[language]][["concepts"]][i])
+                                  concept = e_list[i])
   }
   cat("\n")
   
   
+  r_list = getConceptList_Relationships(langNum)
+  r_list_summary = paste0(paste0(r_list[c(1,2,3)],collapse = ", "), ", etc.")
+  
+  
+  
   cat("l: relationshipRelevance\n")
   cat("t: range\n")
-  cat('q: <h3>Relationship Relevance</h3>Consider now the modeling <b>relationships</b> discussed earlier (<b>',paste0(lang[[language]][["relationships"]],collapse = ", "),'</b>). Consider also the two cases you studied (Heather\'s store and Kim\'s travels). Rate how <b>relevant</b> you find each of the relationships to what is presented in the two cases. You may review again the cases <a href=\"',cases,'\" target=\"_blank\">here</a> (opens in new window). You may review the vocabulary again by referring to <a href=\"',video[language],'\" target=\"_blank\">the vocabulary presentation video</a> (opens in new window) or to <a href=\"',url_concepts[language],'\" target=\"popup\" onclick=\"window.open(\'',url_relationships[language],"','popup','width=600,height=400');return false;\"> the cheat-sheet</a> (pops-up a window).\n")
-  for(i in 1:length(lang[[language]][["relationships"]])) {
-    cat("- {min=0,max=10,left=Not at all relevant,right=Very relevant,start=5} Relevance of relationship <u><b>",lang[[language]][["relationships"]][i],"</b></u>\n")
+  cat('q: <h3>Relationship Relevance</h3>Consider now the modeling <b>relationships</b> discussed earlier (',r_list_summary,'). Consider also the ',casez,' you studied (',s_list_summary,'). Rate how <b>relevant</b> you find each of the relationships to what is presented in the ',casez,'. You may review again the ',casez,' <a href=\"',getConfig("cases_url"),'\" target=\"_blank\">here</a> (opens in new window). You may review the vocabulary again by referring to <a href=\"',getURL(getLanguageVideoCode(langNum)),'\" target=\"_blank\">the vocabulary presentation video</a> (opens in new window) or to <a href=\"',getLangCheatSheetURL_Relationships(langNum),'\" target=\"popup\" onclick=\"window.open(\'',getLangCheatSheetURL_Relationships(langNum),"','popup','width=600,height=400');return false;\"> the cheat-sheet</a> (pops-up a window).\n",sep="")
+  for(i in 1:length(r_list)) {
+    cat("- {min=0,max=10,left=Not at all relevant,right=Very relevant,start=5} Relevance of relationship <u><b>",r_list[i],"</b></u>\n")
     key_att = key_att %>% add_row(psy_item = paste0("relationshipRelevance:",i),
                                   language = language,
-                                  concept = lang[[language]][["relationships"]][i])
+                                  concept = r_list[i])
   }
   cat("\n")
   
@@ -265,29 +275,29 @@ print_self_reporting <- function(language, key_att){
   
   cat("l: completenessDescr\n")
   cat("t: youtube\n")
-  cat("q: <h2>Completeness</h2>Please watch the following video with directions about this page.If embedded video does not load, you can  <a href='",dirvideo["completeness"],"' target=\"_blank\">watch it directly on Youtube</a>\n")
-  cat(paste0("- ",dirvideo_code["completeness"], "\n\n"))
+  cat("q: <h2>Completeness</h2>Please watch the following video with directions about this page.If embedded video does not load, you can  <a href='",getYoutubeURL(getConfig("completeness")),"' target=\"_blank\">watch it directly on Youtube</a>\n")
+  cat(paste0("- ",getConfig("completeness"), "\n\n"))
   
   cat("l: conceptCompleteness\n")
   cat("t: range\n")
-  cat('q: <h3>Concept Completeness</h3>Consider again the two cases you studied (Heather\'s store and Kim\'s travels) and the items in the cases that you were asked to classify. Consider also the modeling <b>concepts</b> that you used. Do you agree with the following statement: <BR>\n')
-  cat('<p style="text-align:center"><i>The set of concepts included in the vocabulary (<b>',paste(lang[[language]][["concepts"]],collapse = ", "),'</b>) were <b>sufficient</b> for characterizing relevant parts of the described cases. <b>No more concepts need to be added</b> to the set to make it more complete.</i></p>\n')
+  cat('q: <h3>Concept Completeness</h3>Consider again the ',casez,' you studied (',s_list_summary,') and the items in the ',casez,' that you were asked to classify. Consider also the modeling <b>entites</b> that you used (',e_list_summary,'). Do you agree with the following statement: <BR>\n',sep="")
+  cat('<p style="text-align:center"><i>The set of concepts included in the vocabulary (<b>',paste(c_list,collapse = ", "),'</b>) were <b>sufficient</b> for characterizing relevant parts of the described cases. <b>No more entities need to be added</b> to the set to make it more complete.</i></p>\n',sep="")
   cat("- {min=-7,max=+7,left=Strongly Disagree,right=Strongly Agree,start=0}\n")
   cat("\n")
-  key_att = key_att %>% add_row(psy_item = "conceptCompleteness:1", 
-                                language = language,
-                                concept = language)
+  key_att = key_att %>% add_row(psy_item = "entityCompleteness:1", 
+                                language = langNum,
+                                concept = langNum)
   
   
   cat("l: relationshipCompleteness\n")
   cat("t: range\n")
-  cat('q: <h3>Relationship Completeness</h3>Consider again the two cases you studied (Heather\'s store and Kim\'s travels) and the items in the cases that you were asked to classify. Consider also the modeling <b>relationships</b> that you used. Do you agree with the following statement: <BR>\n')
-  cat('<p style="text-align:center"><i>The set of relationships included in the vocabulary (<b>',paste(lang[[language]][["relationships"]],collapse = ", "),'</b>) were <b>sufficient</b> for characterizing relevant parts in the described cases.  <b>No more relationships need to be added</b> to the set to make it more complete.</i>\n')
+  cat('q: <h3>Relationship Completeness</h3>Consider again the ',casez,' you studied (',s_list_summary,') and the items in the ',casez,' that you were asked to classify. Consider also the modeling <b>relationships</b> that you used (',r_list_summary,'). Do you agree with the following statement: <BR>\n',sep="")
+  cat('<p style="text-align:center"><i>The set of relationships included in the vocabulary (<b>',paste(r_list,collapse = ", "),'</b>) were <b>sufficient</b> for characterizing relevant parts in the described cases.  <b>No more relationships need to be added</b> to the set to make it more complete.</i>\n',sep="")
   cat("- {min=-7,max=+7,left=Strongly Disagree,right=Strongly Agree,start=0}\n")
   cat("\n")
   key_att = key_att %>% add_row(psy_item = "relationshipCompleteness:1", 
-                                language = language,
-                                concept = language)
+                                language = langNum,
+                                concept = langNum)
   
   
   cat("page: end\n\n")
