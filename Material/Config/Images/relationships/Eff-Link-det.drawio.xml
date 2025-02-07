@@ -1,0 +1,487 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.4 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.4" pages="14">
+  <diagram name="iRL-therm-rel-1-eff-link-det" id="lrQCM1Hvvk60PSm_WDTy">
+    <mxGraphModel dx="4834" dy="4136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b4868dzRKh7-qtOUt5kx-1" value="deterministically effects" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=24;spacingLeft=19;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-3180" y="-3130" width="439" height="134.84" as="geometry" />
+        </mxCell>
+        <mxCell id="b4868dzRKh7-qtOUt5kx-2" value="Temperature Controlled" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="-3180" y="-3090" width="129" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="b4868dzRKh7-qtOUt5kx-3" value="Signal Heater Off" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="-2910" y="-3030" width="157" height="31.32" as="geometry" />
+        </mxCell>
+        <mxCell id="b4868dzRKh7-qtOUt5kx-4" value="" style="endArrow=classic;html=1;strokeWidth=2;curved=1;fontStyle=0;fontSize=11;" parent="1" source="b4868dzRKh7-qtOUt5kx-2" target="b4868dzRKh7-qtOUt5kx-11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2996" y="-3172.26" as="sourcePoint" />
+            <mxPoint x="-2969.4268709951666" y="-3059.346769822803" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-3010" y="-3080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b4868dzRKh7-qtOUt5kx-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;eff&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;labelBackgroundColor=default;" parent="b4868dzRKh7-qtOUt5kx-4" vertex="1" connectable="0">
+          <mxGeometry x="-0.1963" y="-16" relative="1" as="geometry">
+            <mxPoint x="-4" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b4868dzRKh7-qtOUt5kx-11" value="Signal Heater On" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="-2920" y="-3086" width="148" height="21.16" as="geometry" />
+        </mxCell>
+        <mxCell id="oS3VFSzpBtd0xINspZdC-1" value="" style="endArrow=classic;html=1;strokeWidth=2;curved=1;fontStyle=0;fontSize=11;" parent="1" source="b4868dzRKh7-qtOUt5kx-2" target="b4868dzRKh7-qtOUt5kx-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-3043" y="-3055" as="sourcePoint" />
+            <mxPoint x="-2910" y="-3067" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2990" y="-3040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oS3VFSzpBtd0xINspZdC-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;eff&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;labelBackgroundColor=default;" parent="oS3VFSzpBtd0xINspZdC-1" vertex="1" connectable="0">
+          <mxGeometry x="-0.1963" y="-16" relative="1" as="geometry">
+            <mxPoint x="-4" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jRgEcZpF6pAmbIoYRc1D" name="iRL-therm-rel-2-eff-link-det">
+    <mxGraphModel dx="4083" dy="3698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DWyHqcIsynUfunHa37Ur-1" value="deterministically effects" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=24;spacingLeft=19;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-3180" y="-3130" width="439" height="134.84" as="geometry" />
+        </mxCell>
+        <mxCell id="DWyHqcIsynUfunHa37Ur-2" value="Singal Heater On" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="-3180" y="-3074.84" width="110" height="44.84" as="geometry" />
+        </mxCell>
+        <mxCell id="DWyHqcIsynUfunHa37Ur-3" value="On Signal Failed" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="-2930" y="-3040" width="157" height="31.32" as="geometry" />
+        </mxCell>
+        <mxCell id="DWyHqcIsynUfunHa37Ur-11" value="On Signal Succeeded" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="-2940" y="-3086" width="190" height="21.16" as="geometry" />
+        </mxCell>
+        <mxCell id="b-itBA5Lnsukt0SCiCtT-1" value="" style="endArrow=classic;html=1;strokeWidth=2;curved=1;fontStyle=0;fontSize=11;" edge="1" parent="1" source="DWyHqcIsynUfunHa37Ur-2" target="DWyHqcIsynUfunHa37Ur-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-3053" y="-3065" as="sourcePoint" />
+            <mxPoint x="-2920" y="-3077" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-3010" y="-3080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b-itBA5Lnsukt0SCiCtT-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;eff&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;labelBackgroundColor=default;" vertex="1" connectable="0" parent="b-itBA5Lnsukt0SCiCtT-1">
+          <mxGeometry x="-0.1963" y="-16" relative="1" as="geometry">
+            <mxPoint x="-4" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b-itBA5Lnsukt0SCiCtT-3" value="" style="endArrow=classic;html=1;strokeWidth=2;curved=1;fontStyle=0;fontSize=11;" edge="1" parent="1" source="DWyHqcIsynUfunHa37Ur-2" target="DWyHqcIsynUfunHa37Ur-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-3051" y="-3041" as="sourcePoint" />
+            <mxPoint x="-2910" y="-3027" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2990" y="-3040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b-itBA5Lnsukt0SCiCtT-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;eff&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;labelBackgroundColor=default;" vertex="1" connectable="0" parent="b-itBA5Lnsukt0SCiCtT-3">
+          <mxGeometry x="-0.1963" y="-16" relative="1" as="geometry">
+            <mxPoint x="-4" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zBmDgi2XzJmhAONFBeY-" name="iRL-therm-rel-3-eff-link-det">
+    <mxGraphModel dx="4834" dy="4136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-_DKnM4DU0VuRa-ERzb_-1" value="deterministically effects" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=24;spacingLeft=19;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-3180" y="-3130" width="439" height="134.84" as="geometry" />
+        </mxCell>
+        <mxCell id="-_DKnM4DU0VuRa-ERzb_-2" value="Singal Heater Off" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="-3180" y="-3074.84" width="110" height="44.84" as="geometry" />
+        </mxCell>
+        <mxCell id="-_DKnM4DU0VuRa-ERzb_-3" value="Off Signal Failed" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="-2930" y="-3040" width="157" height="31.32" as="geometry" />
+        </mxCell>
+        <mxCell id="-_DKnM4DU0VuRa-ERzb_-9" value="Off Signal Succeeded" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="-2940" y="-3086" width="190" height="21.16" as="geometry" />
+        </mxCell>
+        <mxCell id="y2Yx2N29lzrOgg6gtuve-1" value="" style="endArrow=classic;html=1;strokeWidth=2;curved=1;fontStyle=0;fontSize=11;" edge="1" parent="1" source="-_DKnM4DU0VuRa-ERzb_-2" target="-_DKnM4DU0VuRa-ERzb_-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-3053" y="-3065" as="sourcePoint" />
+            <mxPoint x="-2920" y="-3077" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-3010" y="-3080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y2Yx2N29lzrOgg6gtuve-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;eff&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;labelBackgroundColor=default;" vertex="1" connectable="0" parent="y2Yx2N29lzrOgg6gtuve-1">
+          <mxGeometry x="-0.1963" y="-16" relative="1" as="geometry">
+            <mxPoint x="-4" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y2Yx2N29lzrOgg6gtuve-3" value="" style="endArrow=classic;html=1;strokeWidth=2;curved=1;fontStyle=0;fontSize=11;" edge="1" parent="1" source="-_DKnM4DU0VuRa-ERzb_-2" target="-_DKnM4DU0VuRa-ERzb_-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-3051" y="-3041" as="sourcePoint" />
+            <mxPoint x="-2910" y="-3027" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2990" y="-3040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y2Yx2N29lzrOgg6gtuve-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;eff&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;labelBackgroundColor=default;" vertex="1" connectable="0" parent="y2Yx2N29lzrOgg6gtuve-3">
+          <mxGeometry x="-0.1963" y="-16" relative="1" as="geometry">
+            <mxPoint x="-4" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1IxjrtlEPSZ1EHy36e9s" name="iRL-therm-rel-4-eff-link-det">
+    <mxGraphModel dx="4083" dy="3698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OjTiJoydg51407XdQp7e-1" value="deterministically effects" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=24;spacingLeft=19;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-3180" y="-3130" width="439" height="134.84" as="geometry" />
+        </mxCell>
+        <mxCell id="OjTiJoydg51407XdQp7e-2" value="Heater Was Previously On" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="-3160" y="-3076.76" width="130" height="44.84" as="geometry" />
+        </mxCell>
+        <mxCell id="OjTiJoydg51407XdQp7e-3" value="Heater On" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="-2861" y="-3070.0000000000005" width="120" height="31.32" as="geometry" />
+        </mxCell>
+        <mxCell id="OjTiJoydg51407XdQp7e-4" value="" style="endArrow=classic;html=1;strokeWidth=2;curved=1;fontStyle=0;fontSize=11;" parent="1" source="OjTiJoydg51407XdQp7e-2" target="OjTiJoydg51407XdQp7e-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2996" y="-3172.26" as="sourcePoint" />
+            <mxPoint x="-2974.7361631056433" y="-3057.1219132278857" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2960" y="-3070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OjTiJoydg51407XdQp7e-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;eff&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;labelBackgroundColor=default;" parent="OjTiJoydg51407XdQp7e-4" vertex="1" connectable="0">
+          <mxGeometry x="-0.1963" y="-16" relative="1" as="geometry">
+            <mxPoint x="21" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mF4jjamFUtdUcgxOceSQ" name="iRL-therm-rel-5-eff-link-det">
+    <mxGraphModel dx="4834" dy="4136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="V6hxQu-QG87r22cKWcSM-1" value="deterministically effects" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=24;spacingLeft=19;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-3180" y="-3130" width="439" height="134.84" as="geometry" />
+        </mxCell>
+        <mxCell id="V6hxQu-QG87r22cKWcSM-2" value="On Signal Succeeded" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="-3160" y="-3070" width="110" height="44.84" as="geometry" />
+        </mxCell>
+        <mxCell id="V6hxQu-QG87r22cKWcSM-3" value="Heater On" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="-2900" y="-3070" width="120" height="31.32" as="geometry" />
+        </mxCell>
+        <mxCell id="V6hxQu-QG87r22cKWcSM-4" value="" style="endArrow=classic;html=1;strokeWidth=2;curved=1;fontStyle=0;fontSize=11;" parent="1" source="V6hxQu-QG87r22cKWcSM-2" target="V6hxQu-QG87r22cKWcSM-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2996" y="-3172.26" as="sourcePoint" />
+            <mxPoint x="-2974.7361631056433" y="-3057.1219132278857" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2980" y="-3070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V6hxQu-QG87r22cKWcSM-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;eff&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;labelBackgroundColor=default;" parent="V6hxQu-QG87r22cKWcSM-4" vertex="1" connectable="0">
+          <mxGeometry x="-0.1963" y="-16" relative="1" as="geometry">
+            <mxPoint x="-4" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vYKbGq_c37cxqWt-kweQ" name="iRL-therm-rel-6-eff-link-det">
+    <mxGraphModel dx="4834" dy="4136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iiCVAeNjBC5Si08TCKi4-1" value="deterministically effects" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=24;spacingLeft=19;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-3180" y="-3130" width="439" height="134.84" as="geometry" />
+        </mxCell>
+        <mxCell id="iiCVAeNjBC5Si08TCKi4-2" value="On Signal Failed" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="-3160" y="-3070" width="110" height="44.84" as="geometry" />
+        </mxCell>
+        <mxCell id="iiCVAeNjBC5Si08TCKi4-3" value="Heater On" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="-2890" y="-3070" width="120" height="31.32" as="geometry" />
+        </mxCell>
+        <mxCell id="iiCVAeNjBC5Si08TCKi4-4" value="" style="endArrow=classic;html=1;strokeWidth=2;curved=1;fontStyle=0;fontSize=11;" parent="1" source="iiCVAeNjBC5Si08TCKi4-2" target="iiCVAeNjBC5Si08TCKi4-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2996" y="-3172.26" as="sourcePoint" />
+            <mxPoint x="-2984" y="-3073.42" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2970" y="-3070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iiCVAeNjBC5Si08TCKi4-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;eff&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;labelBackgroundColor=default;" parent="iiCVAeNjBC5Si08TCKi4-4" vertex="1" connectable="0">
+          <mxGeometry x="-0.1963" y="-16" relative="1" as="geometry">
+            <mxPoint x="-4" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Au_eIEvgqQtElC9Wct7o" name="iRL-therm-rel-7-eff-link-det">
+    <mxGraphModel dx="4834" dy="4136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Us6VkYpzxu_0pEAOEO40-1" value="deterministically effects" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=24;spacingLeft=19;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-3180" y="-3130" width="439" height="134.84" as="geometry" />
+        </mxCell>
+        <mxCell id="Us6VkYpzxu_0pEAOEO40-2" value="Off Signal Succeeded" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="-3150.5" y="-3060" width="110" height="44.84" as="geometry" />
+        </mxCell>
+        <mxCell id="Us6VkYpzxu_0pEAOEO40-3" value="Heater On" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="-2890.5" y="-3060" width="120" height="31.32" as="geometry" />
+        </mxCell>
+        <mxCell id="Us6VkYpzxu_0pEAOEO40-4" value="" style="endArrow=classic;html=1;strokeWidth=2;curved=1;fontStyle=0;fontSize=11;" parent="1" source="Us6VkYpzxu_0pEAOEO40-2" target="Us6VkYpzxu_0pEAOEO40-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2986.5" y="-3162.26" as="sourcePoint" />
+            <mxPoint x="-2965.2361631056433" y="-3047.1219132278857" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2970.5" y="-3070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Us6VkYpzxu_0pEAOEO40-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;eff&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;labelBackgroundColor=default;" parent="Us6VkYpzxu_0pEAOEO40-4" vertex="1" connectable="0">
+          <mxGeometry x="-0.1963" y="-16" relative="1" as="geometry">
+            <mxPoint x="-4" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4KhcXFip8CfWlh6ND8Yw" name="iRL-therm-rel-8-eff-link-det">
+    <mxGraphModel dx="4834" dy="4136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NfQ26A78DbGDS463RPuT-1" value="deterministically effects" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=24;spacingLeft=19;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-3180" y="-3130" width="439" height="134.84" as="geometry" />
+        </mxCell>
+        <mxCell id="NfQ26A78DbGDS463RPuT-2" value="Off Signal Failed" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="-3160" y="-3070" width="110" height="44.84" as="geometry" />
+        </mxCell>
+        <mxCell id="NfQ26A78DbGDS463RPuT-3" value="Heater On" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="-2910" y="-3070" width="120" height="31.32" as="geometry" />
+        </mxCell>
+        <mxCell id="NfQ26A78DbGDS463RPuT-4" value="" style="endArrow=classic;html=1;strokeWidth=2;curved=1;fontStyle=0;fontSize=11;" parent="1" source="NfQ26A78DbGDS463RPuT-2" target="NfQ26A78DbGDS463RPuT-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2996" y="-3172.26" as="sourcePoint" />
+            <mxPoint x="-2974.7361631056433" y="-3057.1219132278857" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2980" y="-3070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NfQ26A78DbGDS463RPuT-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;eff&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;labelBackgroundColor=default;" parent="NfQ26A78DbGDS463RPuT-4" vertex="1" connectable="0">
+          <mxGeometry x="-0.1963" y="-16" relative="1" as="geometry">
+            <mxPoint x="-4" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FeQZBwoRJbgXJpnwxUOL" name="iRL-therm-rel-9-eff-link-det">
+    <mxGraphModel dx="4834" dy="4136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FfYt27cEyCsxlBWKqUmu-1" value="deterministically effects" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=24;spacingLeft=19;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-3180" y="-3130" width="439" height="134.84" as="geometry" />
+        </mxCell>
+        <mxCell id="FfYt27cEyCsxlBWKqUmu-2" value="Heater On" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="-3160" y="-3070" width="110" height="44.84" as="geometry" />
+        </mxCell>
+        <mxCell id="FfYt27cEyCsxlBWKqUmu-3" value="Minimize Running Time" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="-2890" y="-3063.2400000000002" width="120" height="31.32" as="geometry" />
+        </mxCell>
+        <mxCell id="FfYt27cEyCsxlBWKqUmu-4" value="" style="endArrow=classic;html=1;strokeWidth=2;curved=1;fontStyle=0;fontSize=11;" parent="1" source="FfYt27cEyCsxlBWKqUmu-2" target="FfYt27cEyCsxlBWKqUmu-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2996" y="-3172.26" as="sourcePoint" />
+            <mxPoint x="-2974.7361631056433" y="-3057.1219132278857" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2960" y="-3070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FfYt27cEyCsxlBWKqUmu-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;eff&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;labelBackgroundColor=default;" parent="FfYt27cEyCsxlBWKqUmu-4" vertex="1" connectable="0">
+          <mxGeometry x="-0.1963" y="-16" relative="1" as="geometry">
+            <mxPoint x="-4" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="P1F7y5oBeZOF15YZMAfe" name="iRL-therm-rel-10-eff-link-det">
+    <mxGraphModel dx="4083" dy="3698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IHf7R6nDcMI6HjyQ6n3a-1" value="deterministically effects" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=24;spacingLeft=19;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-3180" y="-3130" width="439" height="134.84" as="geometry" />
+        </mxCell>
+        <mxCell id="IHf7R6nDcMI6HjyQ6n3a-2" value="Maintain Ideal Temperature (previous level)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="-3160" y="-3080" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IHf7R6nDcMI6HjyQ6n3a-3" value="Maintain Ideal Temperature (current level)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="-2900" y="-3090" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IHf7R6nDcMI6HjyQ6n3a-4" value="" style="endArrow=classic;html=1;strokeWidth=2;curved=1;fontStyle=0;fontSize=11;" parent="1" source="IHf7R6nDcMI6HjyQ6n3a-2" target="IHf7R6nDcMI6HjyQ6n3a-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-3070" y="-3050" as="sourcePoint" />
+            <mxPoint x="-2959.997918184625" y="-3069.0440391466254" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2960" y="-3070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IHf7R6nDcMI6HjyQ6n3a-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;eff&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;labelBackgroundColor=default;" parent="IHf7R6nDcMI6HjyQ6n3a-4" vertex="1" connectable="0">
+          <mxGeometry x="-0.1963" y="-16" relative="1" as="geometry">
+            <mxPoint x="-4" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Xo7n9-qTVo7QPiPUUxzN" name="iRL-therm-rel-11-eff-link-det">
+    <mxGraphModel dx="4834" dy="4136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="E0kmKBjvT9tt4iHKt0DF-1" value="deterministically effects" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=24;spacingLeft=19;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-3180" y="-3130" width="439" height="134.84" as="geometry" />
+        </mxCell>
+        <mxCell id="E0kmKBjvT9tt4iHKt0DF-2" value="Heater On" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="-3160" y="-3080" width="90" height="54.84" as="geometry" />
+        </mxCell>
+        <mxCell id="E0kmKBjvT9tt4iHKt0DF-3" value="Maintain Ideal Temperature (current level)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="-2900" y="-3080.16" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="E0kmKBjvT9tt4iHKt0DF-4" value="" style="endArrow=classic;html=1;strokeWidth=2;curved=1;fontStyle=0;fontSize=11;" parent="1" source="E0kmKBjvT9tt4iHKt0DF-2" target="E0kmKBjvT9tt4iHKt0DF-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-3085.5" y="-3050" as="sourcePoint" />
+            <mxPoint x="-2995.2208220857497" y="-3064.9264053310435" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2990" y="-3070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E0kmKBjvT9tt4iHKt0DF-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;eff&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;labelBackgroundColor=default;" parent="E0kmKBjvT9tt4iHKt0DF-4" vertex="1" connectable="0">
+          <mxGeometry x="-0.1963" y="-16" relative="1" as="geometry">
+            <mxPoint x="-4" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="enEovX3N7CVmyAMt918q" name="iRL-therm-rel-12-eff-link-det">
+    <mxGraphModel dx="4834" dy="4136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QukzJwpvwqyP1vXlT4Ng-1" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 24px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;deterministically effects&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=24;spacingLeft=19;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-3180" y="-3130" width="439" height="134.84" as="geometry" />
+        </mxCell>
+        <mxCell id="QukzJwpvwqyP1vXlT4Ng-2" value="Minimize Running Time&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="-3160.5" y="-3070" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QukzJwpvwqyP1vXlT4Ng-3" value="Minimize Cost" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="-2900.5" y="-3080" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QukzJwpvwqyP1vXlT4Ng-4" value="" style="endArrow=classic;html=1;strokeWidth=2;curved=1;fontStyle=0;fontSize=11;" parent="1" source="QukzJwpvwqyP1vXlT4Ng-2" target="QukzJwpvwqyP1vXlT4Ng-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-3060.5" y="-3040" as="sourcePoint" />
+            <mxPoint x="-2950.497918184625" y="-3059.0440391466254" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2960" y="-3070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QukzJwpvwqyP1vXlT4Ng-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;eff&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;labelBackgroundColor=default;" parent="QukzJwpvwqyP1vXlT4Ng-4" vertex="1" connectable="0">
+          <mxGeometry x="-0.1963" y="-16" relative="1" as="geometry">
+            <mxPoint x="-4" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="iRL-therm-rel-13-eff-link-det" id="P5TjuPJcCvfCDk246iFM">
+    <mxGraphModel dx="4834" dy="4136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="KZR2G05XeIorMjJvlH5d-0" />
+        <mxCell id="KZR2G05XeIorMjJvlH5d-1" parent="KZR2G05XeIorMjJvlH5d-0" />
+        <mxCell id="vep0tWj-A7h6X2Nez1tF-0" value="deterministically effects" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=24;spacingLeft=19;horizontal=1;verticalAlign=top;" parent="KZR2G05XeIorMjJvlH5d-1" vertex="1">
+          <mxGeometry x="-3180" y="-3130" width="439" height="134.84" as="geometry" />
+        </mxCell>
+        <mxCell id="vep0tWj-A7h6X2Nez1tF-1" value="Maintain Ideal Temperature" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="KZR2G05XeIorMjJvlH5d-1" vertex="1">
+          <mxGeometry x="-3180" y="-3080" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vep0tWj-A7h6X2Nez1tF-2" value="Maximize Comfort" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="KZR2G05XeIorMjJvlH5d-1" vertex="1">
+          <mxGeometry x="-2900" y="-3090" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vep0tWj-A7h6X2Nez1tF-3" value="" style="endArrow=classic;html=1;strokeWidth=2;curved=1;fontStyle=0;fontSize=11;" parent="KZR2G05XeIorMjJvlH5d-1" source="vep0tWj-A7h6X2Nez1tF-1" target="vep0tWj-A7h6X2Nez1tF-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-3070" y="-3050" as="sourcePoint" />
+            <mxPoint x="-2959.997918184625" y="-3069.0440391466254" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2960" y="-3070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vep0tWj-A7h6X2Nez1tF-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;eff&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;labelBackgroundColor=default;" parent="vep0tWj-A7h6X2Nez1tF-3" vertex="1" connectable="0">
+          <mxGeometry x="-0.1963" y="-16" relative="1" as="geometry">
+            <mxPoint x="-4" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="KmZoFBOVh3dv930wX-Ls" name="iRL-therm-rel-14-eff-link-det">
+    <mxGraphModel dx="4834" dy="4136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wuYZbo4GQUZko2XZhAfH-1" value="deterministically effects" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=24;spacingLeft=19;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-3180" y="-3130" width="439" height="134.84" as="geometry" />
+        </mxCell>
+        <mxCell id="wuYZbo4GQUZko2XZhAfH-2" value="Controller" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="-3140" y="-3080" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wuYZbo4GQUZko2XZhAfH-3" value="Temperature Controlled" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="-2900" y="-3090" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wuYZbo4GQUZko2XZhAfH-4" value="" style="endArrow=classic;html=1;strokeWidth=2;curved=1;fontStyle=0;fontSize=11;" parent="1" source="wuYZbo4GQUZko2XZhAfH-2" target="wuYZbo4GQUZko2XZhAfH-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-3070" y="-3050" as="sourcePoint" />
+            <mxPoint x="-2959.997918184625" y="-3069.0440391466254" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2960" y="-3070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wuYZbo4GQUZko2XZhAfH-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;eff&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;labelBackgroundColor=default;" parent="wuYZbo4GQUZko2XZhAfH-4" vertex="1" connectable="0">
+          <mxGeometry x="-0.1963" y="-16" relative="1" as="geometry">
+            <mxPoint x="-4" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

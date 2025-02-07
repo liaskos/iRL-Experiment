@@ -40,38 +40,46 @@ print_preliminary <- function(langNum,
   
   cat("l: entityUnderstandingDefn\n")  
   cat("t: scale ",paste0(langNum,"-entities-test\n"))
-  cat("o: random\n")
+  if (as.logical(getConfig("training_shuffle"))) {
+    cat("o: random\n")  
+  }
   cat("q: Please match each of the following definitions with the entity it defines.\n")
-  for (t in getConceptDefinitions_Entities(langNum)[entity_definition_sample]) {
-    cat("- ", t," \n")
+  for (t in getConceptDefinitions_Entities(langNum)[getTrainingSampleDefinitions_Entities(langNum)]) {
+    cat(paste0("- \"", t,"\" \n"))
   }
   cat("\n")
   
   cat("l: entityUnderstandingExample\n")  
   cat("t: scale ",paste0(langNum,"-entities-test\n"))
-  cat("o: random\n")
-  cat("q: Please match each of the following examples with the entity it exemplifies.\n")
-  for (t in getConceptExamples_Entities(langNum)[entity_examples_sample]) {
-    cat("- ", t," \n")
+  if (as.logical(getConfig("training_shuffle"))) {
+    cat("o: random\n")  
+  }
+  cat("q: Please match each of the following examples with an entity it may exemplifies. There may be many correct answers. \n")
+  for (t in getConceptExamples_Entities(langNum)[getTrainingSampleExamples_Entities(langNum)]) {
+    cat(paste0("- <i>\"", t,"\"</i> \n"))
   }
   cat("\n")
   
   
   cat("l: relationshipUnderstandingDefn\n")  
   cat("t: scale ",paste0(langNum,"-relationships-test\n"))
-  cat("o: random\n")
+  if (as.logical(getConfig("training_shuffle"))) {
+    cat("o: random\n")  
+  }
   cat("q: Please match each of the following definitions with the relationship it defines.\n")
-  for (t in getConceptDefinitions_Relationships(langNum)[relationship_definition_sample]) {
-    cat("- ", t," \n")
+  for (t in getConceptDefinitions_Relationships(langNum)[getTrainingSampleDefinitions_Relationships(langNum)]) {
+    cat(paste0("- \"", t,"\" \n"))
   }
   cat("\n")
   
 
   cat("l: relationshipUnderstandingExample\n")  
   cat("t: scale ",paste0(langNum,"-relationships-test\n"))
-  cat("o: random\n")
+  if (as.logical(getConfig("training_shuffle"))) {
+    cat("o: random\n")  
+  }
   cat("q: Please match each of the following examples with the relationship it exemplifies.\n")
-  for (t in getConceptExamples_Relationships(langNum)[relationship_example_sample]) {
+  for (t in getConceptExamples_Relationships(langNum)[getTrainingSampleExamples_Relationships(langNum)]) {
     cat("- ", t," \n")
   }
   cat("\n")
@@ -187,10 +195,10 @@ print_overlap <- function(langNum, key_att){
   cat(paste0("q: <h2>Overlap</h2>Please watch the following video with directions about this page. If embedded video does not load, you can  <a href='",getURL(getConfig("overlap")),"' target=\"_blank\">watch it directly on Youtube</a>\n"))
   cat(paste0("- ",getConfig("overlap")),"\n\n")
     
-  cat("l: conceptOverlap\n")
+  cat("l: conceptOverlap_ents\n")
   cat("t: range\n")
-  cat('q: <h3>Overlap Assessment</h3> Consider <b>pairs</b> of the modeling entities and relationships discussed earlier: <b>',getLangExamples(langNum),'</b> etc. For each pair, rate how much you think the two concepts in the pair <b>overlap</b>, i.e., refer to the same thing. Choose any level from 0 to 10, between <b>No Overlap</b> (0, the concepts in the pair are completely distinct) and <b>Complete Overlap</b> (10, the concepts in the pair refer to the same thing in different words).')
-  cat('You can review the language again by referring to <a href=\"',getURL(getLanguageVideoCode(langNum)),'\" target=\"_blank\">the previous video</a> (opens in new window) or to <a href=\"',getLangCheatSheetURL(langNum),'\" target=\"popup\" onclick=\"window.open(\'',getLangCheatSheetURL(langNum),"','popup','width=600,height=400');return false;\"> the cheat-sheet</a> (pops-up a window).\n")
+  cat('q: <h3>Overlap Assessment - Entities</h3> Consider <b>pairs</b> of the modeling <b>entities</b> discussed earlier: <b>',getLangExamples_Entities(langNum),'</b> etc. For each pair, rate how much you think the two entities in the pair <b>overlap</b>, i.e., refer to the same thing. Choose any level from 0 to 10, between <b>No Overlap</b> (0, the entities in the pair are completely distinct) and <b>Complete Overlap</b> (10, the entities in the pair refer to the same thing in different words).')
+  cat('You can review the language again by referring to <a href=\"',getURL(getLanguageVideoCode(langNum)),'\" target=\"_blank\">the previous video</a> (opens in new window) or to <a href=\"',getLangCheatSheetURL_Entities(langNum),'\" target=\"popup\" onclick=\"window.open(\'',getLangCheatSheetURL_Entities(langNum),"','popup','width=600,height=400');return false;\"> the cheat-sheet</a> (pops-up a window).\n")
   
   k = 1
   c_list = getConceptList_Entities(langNum)
@@ -204,6 +212,13 @@ print_overlap <- function(langNum, key_att){
       k = k + 1
     }
   }
+  
+  
+  
+  cat("\n\n l: conceptOverlap_rels\n")
+  cat("t: range\n")
+  cat('q: <h3>Overlap Assessment - Relationships</h3> Consider <b>pairs</b> of the modeling <b>relationships</b> discussed earlier: <b>',getLangExamples_Relationships(langNum),'</b> etc. For each pair, rate how much you think the two relationships in the pair <b>overlap</b>, i.e., refer to the same thing. Choose any level from 0 to 10, between <b>No Overlap</b> (0, the relationships in the pair are completely distinct) and <b>Complete Overlap</b> (10, the relationships in the pair refer to the same thing in different words).')
+  cat('You can review the language again by referring to <a href=\"',getURL(getLanguageVideoCode(langNum)),'\" target=\"_blank\">the previous video</a> (opens in new window) or to <a href=\"',getLangCheatSheetURL_Relationships(langNum),'\" target=\"popup\" onclick=\"window.open(\'',getLangCheatSheetURL_Relationships(langNum),"','popup','width=600,height=400');return false;\"> the cheat-sheet</a> (pops-up a window).\n")
   
   r_list = getConceptList_Relationships(langNum)
   for (i in 1:(length(r_list)-1)) {

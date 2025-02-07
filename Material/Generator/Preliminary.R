@@ -17,8 +17,10 @@ print_check_inventory_text <- function(langNum,type,trailing = TRUE){
 }
 
 
-print_getImgTag <- function(langID, caseID, itemID, conceptID, conceptDescr){
-  fileName = paste0(langID,"-",caseID,"-",itemID,"-",conceptID,".png")
+print_getImgTag <- function(langID, caseID, itemID, conceptID, conceptDescr,conceptType){
+  typ = substr(conceptType, 1, 3)
+  fileName = paste0(langID,"-",caseID,"-",typ,"-",itemID,"-",conceptID,".png")
+  
   text = paste0('<img src="',getConfig("img_url"),fileName,'" style="height:100px" title="',conceptDescr,'">')
   return (text)
 }
@@ -28,11 +30,11 @@ print_check_inventory <- function(caseNum,itemNum,langNum,type,image = FALSE,tra
   conceptList = concepts_df %>% filter(langID == langNum, conceptType == type) %>% select(conceptID,conceptDescr)
   for (t in (1:nrow(conceptList))){
     if (image) {
-      #text = print_getImgTag(langNum,caseNum,itemNum,conceptList[t,"conceptID"],conceptList[t,"conceptDescr"])
+      text = print_getImgTag(langNum,caseNum,itemNum,conceptList[t,"conceptID"],conceptList[t,"conceptDescr"],type)
       #
       # F I X  T H I S !!!!
       #
-      text = print_getImgTag(langNum,caseNum,1,conceptList[t,"conceptID"],conceptList[t,"conceptDescr"])
+      #text = print_getImgTag(langNum,caseNum,1,conceptList[t,"conceptID"],conceptList[t,"conceptDescr"])
       #                                 !!! ^ !!!
       #
       #
@@ -99,12 +101,12 @@ getClassificationHeader <- function(caseNum){
 }
 
 getCaseItems_Entities <- function(caseNum,langNum){
-  return(items_df %>% filter(caseID==caseNum, type == "entity") %>% select(itemID,order,
+  return(items_df %>% filter(caseID==caseNum, type == "entity", include == TRUE) %>% select(itemID,order,
                                                                     item_text,
                                                                     paste0(langNum,"_auth")))
 }
 getCaseItems_Relationships <- function(caseNum,langNum){
-  return(items_df %>% filter(caseID==caseNum, type == "relationship") %>% select(itemID,order,
+  return(items_df %>% filter(caseID==caseNum, type == "relationship", include == TRUE) %>% select(itemID,order,
                                                                            item_text,
                                                                            paste0(langNum,"_auth")))
 }
@@ -148,6 +150,14 @@ getLangExamples <- function(langNum) {
   return(lang_df %>% filter(langID==langNum) %>% pull(examples))
 }
 
+getLangExamples_Entities <- function(langNum) {
+  return(lang_df %>% filter(langID==langNum) %>% pull(ent_examples))
+}
+
+getLangExamples_Relationships <- function(langNum) {
+  return(lang_df %>% filter(langID==langNum) %>% pull(rel_examples))
+}
+
 getConceptList_Entities <- function(langNum){
   return(concepts_df %>% filter(langID == langNum,conceptType == "entity") %>% pull(conceptDescr))
 }
@@ -156,12 +166,50 @@ getConceptList_Relationships <- function(langNum){
   return(concepts_df %>% filter(langID == langNum,conceptType == "relationship") %>% pull(conceptDescr))
 }
 
+
+# For training
+
+getTrainingSampleDefinitions_Entities <- function(langNum) {
+  vec1 <- as.numeric(unlist(strsplit(lang_df$ent_training_defn, ";")))
+  vec2 = vec1[!is.na(vec1)]
+  return(vec2)
+}
+
+getTrainingSampleDefinitions_Relationships <- function(langNum) {
+  vec1 <- as.numeric(unlist(strsplit(lang_df$rel_training_defn, ";")))
+  vec2 = vec1[!is.na(vec1)]
+  return(vec2)
+}
+
+getTrainingSampleExamples_Entities <- function(langNum) {
+  vec1 <- as.numeric(unlist(strsplit(lang_df$ent_training_examples, ";")))
+  vec2 = vec1[!is.na(vec1)]
+  return(vec2)
+}
+
+getTrainingSampleExamples_Relationships <- function(langNum) {
+  vec1 <- as.numeric(unlist(strsplit(lang_df$rel_training_examples, ";")))
+  vec2 = vec1[!is.na(vec1)]
+  return(vec2)
+}
+
+
+
+
+
 getConceptDefinitions_Entities <- function(langNum){
   return(concepts_df %>% filter(langID == langNum, conceptType == "entity") %>% pull(definition))
 }
 
 getConceptExamples_Entities <- function(langNum){
-  return(concepts_df %>% filter(langID == langNum, conceptType == "entity") %>% pull(trainingExample))
+  #return(concepts_df %>% filter(langID == langNum, conceptType == "entity") %>% pull(trainingExample))
+  
+  return( paste0("<i>",concepts_df %>% 
+            filter(langID == langNum, conceptType == "entity") %>% 
+            select(trainingExample,exampleIsImage,conceptDescr) %>% 
+            mutate(trainingExample = if_else(exampleIsImage,paste0('<img src="',getConfig("trainingImg_url"),ex_df$trainingExample,'" style="height:100px" title="',ex_df$conceptDescr,'">'),trainingExample)) %>% pull(trainingExample),"</i>") )
+  
+  
 }
 
 getConceptDefinitions_Relationships <- function(langNum){
@@ -169,7 +217,13 @@ getConceptDefinitions_Relationships <- function(langNum){
 }
 
 getConceptExamples_Relationships <- function(langNum){
-  return(concepts_df %>% filter(langID == langNum, conceptType == "relationship") %>% pull(trainingExample))
+  #return(concepts_df %>% filter(langID == langNum, conceptType == "relationship") %>% pull(trainingExample))
+  
+  return( concepts_df %>% 
+    filter(langID == langNum, conceptType == "relationship") %>% 
+    select(trainingExample,exampleIsImage,conceptDescr) %>% 
+    mutate(trainingExample = if_else(exampleIsImage,paste0('<img src="',getConfig("trainingImg_url"),ex_df$trainingExample,'" style="height:100px" title="',ex_df$conceptDescr,'">'),paste0("<i>",trainingExample,"</i>"))) %>% pull(trainingExample))
+  
 }
 
 

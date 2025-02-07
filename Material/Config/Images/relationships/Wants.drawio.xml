@@ -1,0 +1,450 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.4 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.4" pages="14">
+  <diagram name="iRL-therm-rel-1-wants" id="lrQCM1Hvvk60PSm_WDTy">
+    <mxGraphModel dx="4083" dy="3698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6pn1QlNG3ClS2PrVruwr-1" value="&lt;font&gt;&lt;b&gt;wants&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=24;spacingLeft=19;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-3164" y="-3098" width="439" height="134.84" as="geometry" />
+        </mxCell>
+        <mxCell id="6pn1QlNG3ClS2PrVruwr-8" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000099;fontSize=15;fillColor=#FAFAFA;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="-2971.27" y="-3091.22" width="121.27" height="121.27" as="geometry" />
+        </mxCell>
+        <mxCell id="6pn1QlNG3ClS2PrVruwr-11" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Singal Heater On&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;spacing=0;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-2960.64" y="-3010" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6pn1QlNG3ClS2PrVruwr-12" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Singal Heater Off&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;spacing=0;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-2930" y="-3050" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6pn1QlNG3ClS2PrVruwr-13" value="&lt;font&gt;Temperature&lt;br&gt;Controlled&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;fontSize=12;rounded=1;strokeWidth=2;fillColor=#d5e8d4;arcSize=50;spacingTop=-5;" parent="1" vertex="1">
+          <mxGeometry x="-3020" y="-3091.22" width="77.35" height="77.35" as="geometry" />
+        </mxCell>
+        <mxCell id="6pn1QlNG3ClS2PrVruwr-14" value="" style="curved=1;endArrow=none;html=1;rounded=0;fontSize=15;edgeStyle=orthogonalEdgeStyle;exitX=0.039;exitY=0.679;exitDx=0;exitDy=0;entryX=0.971;entryY=0.66;entryDx=0;entryDy=0;endFill=0;strokeWidth=2;entryPerimeter=0;exitPerimeter=0;" parent="1" source="6pn1QlNG3ClS2PrVruwr-13" target="6pn1QlNG3ClS2PrVruwr-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2821.3454111520937" y="-3026.1602043018484" as="sourcePoint" />
+            <mxPoint x="-2784.8226657987993" y="-3063.207898712323" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2982" y="-3013" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jRgEcZpF6pAmbIoYRc1D" name="iRL-therm-rel-2-wants">
+    <mxGraphModel dx="4083" dy="3698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OT33H_UlIMdx_4Irjg6P-1" value="&lt;font&gt;&lt;b&gt;wants&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=24;spacingLeft=19;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-3164" y="-3098" width="439" height="134.84" as="geometry" />
+        </mxCell>
+        <mxCell id="OT33H_UlIMdx_4Irjg6P-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000099;fontSize=15;fillColor=#FAFAFA;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-2971.27" y="-3091.22" width="121.27" height="121.27" as="geometry" />
+        </mxCell>
+        <mxCell id="OT33H_UlIMdx_4Irjg6P-3" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;On Signal&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Failed&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;spacing=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2942.65" y="-3020" width="62.65" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OT33H_UlIMdx_4Irjg6P-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;On Signal&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Succeeded&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;spacing=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2920" y="-3069.04" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OT33H_UlIMdx_4Irjg6P-5" value="Signal Heater On" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;fontSize=12;rounded=1;strokeWidth=2;fillColor=#d5e8d4;arcSize=50;spacingTop=-5;" vertex="1" parent="1">
+          <mxGeometry x="-3007" y="-3091.22" width="64.35" height="64.35" as="geometry" />
+        </mxCell>
+        <mxCell id="OT33H_UlIMdx_4Irjg6P-6" value="" style="curved=1;endArrow=none;html=1;rounded=0;fontSize=15;edgeStyle=orthogonalEdgeStyle;exitX=0.039;exitY=0.679;exitDx=0;exitDy=0;entryX=0.971;entryY=0.66;entryDx=0;entryDy=0;endFill=0;strokeWidth=2;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="OT33H_UlIMdx_4Irjg6P-5" target="OT33H_UlIMdx_4Irjg6P-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2821.3454111520937" y="-3026.1602043018484" as="sourcePoint" />
+            <mxPoint x="-2784.8226657987993" y="-3063.207898712323" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2975" y="-3019" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zBmDgi2XzJmhAONFBeY-" name="iRL-therm-rel-3-wants">
+    <mxGraphModel dx="3974" dy="3634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="meXyoB0Tp07p3niykNna-1" value="&lt;font&gt;&lt;b&gt;wants&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=24;spacingLeft=19;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-3164" y="-3098" width="439" height="134.84" as="geometry" />
+        </mxCell>
+        <mxCell id="meXyoB0Tp07p3niykNna-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000099;fontSize=15;fillColor=#FAFAFA;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-2971.27" y="-3091.22" width="121.27" height="121.27" as="geometry" />
+        </mxCell>
+        <mxCell id="meXyoB0Tp07p3niykNna-3" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Off Signal&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Failed&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;spacing=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2942.65" y="-3020" width="62.65" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="meXyoB0Tp07p3niykNna-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Off Signal&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Succeeded&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;spacing=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2920" y="-3069.04" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="meXyoB0Tp07p3niykNna-5" value="Signal Heater Off" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;fontSize=12;rounded=1;strokeWidth=2;fillColor=#d5e8d4;arcSize=50;spacingTop=-5;" vertex="1" parent="1">
+          <mxGeometry x="-3007" y="-3091.22" width="64.35" height="64.35" as="geometry" />
+        </mxCell>
+        <mxCell id="meXyoB0Tp07p3niykNna-6" value="" style="curved=1;endArrow=none;html=1;rounded=0;fontSize=15;edgeStyle=orthogonalEdgeStyle;exitX=0.039;exitY=0.679;exitDx=0;exitDy=0;entryX=0.971;entryY=0.66;entryDx=0;entryDy=0;endFill=0;strokeWidth=2;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="meXyoB0Tp07p3niykNna-5" target="meXyoB0Tp07p3niykNna-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2821.3454111520937" y="-3026.1602043018484" as="sourcePoint" />
+            <mxPoint x="-2784.8226657987993" y="-3063.207898712323" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2975" y="-3019" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1IxjrtlEPSZ1EHy36e9s" name="iRL-therm-rel-4-wants">
+    <mxGraphModel dx="4389" dy="3877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="X068TILRqqDhAEnaQAGJ-1" value="&lt;font&gt;&lt;b&gt;wants&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=24;spacingLeft=19;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-3164" y="-3098" width="439" height="134.84" as="geometry" />
+        </mxCell>
+        <mxCell id="X068TILRqqDhAEnaQAGJ-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000099;fontSize=15;fillColor=#FAFAFA;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-2971.27" y="-3091.22" width="121.27" height="121.27" as="geometry" />
+        </mxCell>
+        <mxCell id="X068TILRqqDhAEnaQAGJ-3" value="Heater On" style="text;whiteSpace=wrap;html=1;spacing=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2930" y="-3030" width="62.65" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="X068TILRqqDhAEnaQAGJ-7" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-3020" y="-3091.22" width="77.35" height="81.22" as="geometry" />
+        </mxCell>
+        <mxCell id="X068TILRqqDhAEnaQAGJ-5" value="Heater&lt;div&gt;was Previously On&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;fontSize=12;rounded=1;strokeWidth=2;fillColor=#d5e8d4;arcSize=50;spacingTop=-5;" vertex="1" parent="X068TILRqqDhAEnaQAGJ-7">
+          <mxGeometry width="72.36924674605392" height="72.36924674605392" as="geometry" />
+        </mxCell>
+        <mxCell id="X068TILRqqDhAEnaQAGJ-6" value="" style="curved=1;endArrow=none;html=1;rounded=0;fontSize=15;edgeStyle=orthogonalEdgeStyle;exitX=0.039;exitY=0.679;exitDx=0;exitDy=0;entryX=0.971;entryY=0.66;entryDx=0;entryDy=0;endFill=0;strokeWidth=2;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="X068TILRqqDhAEnaQAGJ-7" source="X068TILRqqDhAEnaQAGJ-5" target="X068TILRqqDhAEnaQAGJ-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="223.1605663929382" y="73.1674966297961" as="sourcePoint" />
+            <mxPoint x="267.06164414083753" y="31.502947474177525" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="38.46464646464651" y="81.22" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mF4jjamFUtdUcgxOceSQ" name="iRL-therm-rel-5-wants">
+    <mxGraphModel dx="3974" dy="3634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="F7_Tb7KUpoFO-juN5QK5-1" value="&lt;font&gt;&lt;b&gt;wants&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=24;spacingLeft=19;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-3164" y="-3098" width="439" height="134.84" as="geometry" />
+        </mxCell>
+        <mxCell id="F7_Tb7KUpoFO-juN5QK5-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000099;fontSize=15;fillColor=#FAFAFA;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-2971.27" y="-3091.22" width="121.27" height="121.27" as="geometry" />
+        </mxCell>
+        <mxCell id="F7_Tb7KUpoFO-juN5QK5-3" value="Heater On" style="text;whiteSpace=wrap;html=1;spacing=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2930" y="-3030" width="62.65" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="F7_Tb7KUpoFO-juN5QK5-4" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-3020" y="-3091.22" width="77.35" height="81.22" as="geometry" />
+        </mxCell>
+        <mxCell id="F7_Tb7KUpoFO-juN5QK5-5" value="On Signal Succeeded" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;fontSize=12;rounded=1;strokeWidth=2;fillColor=#d5e8d4;arcSize=50;spacingTop=-5;" vertex="1" parent="F7_Tb7KUpoFO-juN5QK5-4">
+          <mxGeometry width="72.36924674605392" height="72.36924674605392" as="geometry" />
+        </mxCell>
+        <mxCell id="F7_Tb7KUpoFO-juN5QK5-6" value="" style="curved=1;endArrow=none;html=1;rounded=0;fontSize=15;edgeStyle=orthogonalEdgeStyle;exitX=0.039;exitY=0.679;exitDx=0;exitDy=0;entryX=0.971;entryY=0.66;entryDx=0;entryDy=0;endFill=0;strokeWidth=2;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="F7_Tb7KUpoFO-juN5QK5-4" source="F7_Tb7KUpoFO-juN5QK5-5" target="F7_Tb7KUpoFO-juN5QK5-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="223.1605663929382" y="73.1674966297961" as="sourcePoint" />
+            <mxPoint x="267.06164414083753" y="31.502947474177525" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="38.46464646464651" y="81.22" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vYKbGq_c37cxqWt-kweQ" name="iRL-therm-rel-6-wants">
+    <mxGraphModel dx="4219" dy="3778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nxoXQXcr1-sde7bQaJMZ-1" value="&lt;font&gt;&lt;b&gt;wants&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=24;spacingLeft=19;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-3164" y="-3098" width="439" height="134.84" as="geometry" />
+        </mxCell>
+        <mxCell id="nxoXQXcr1-sde7bQaJMZ-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000099;fontSize=15;fillColor=#FAFAFA;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-2971.27" y="-3091.22" width="121.27" height="121.27" as="geometry" />
+        </mxCell>
+        <mxCell id="nxoXQXcr1-sde7bQaJMZ-3" value="Heater On" style="text;whiteSpace=wrap;html=1;spacing=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2930" y="-3030" width="62.65" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nxoXQXcr1-sde7bQaJMZ-4" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-3020" y="-3091.22" width="77.35" height="81.22" as="geometry" />
+        </mxCell>
+        <mxCell id="nxoXQXcr1-sde7bQaJMZ-5" value="On Signal Failed" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;fontSize=12;rounded=1;strokeWidth=2;fillColor=#d5e8d4;arcSize=50;spacingTop=-5;" vertex="1" parent="nxoXQXcr1-sde7bQaJMZ-4">
+          <mxGeometry width="72.36924674605392" height="72.36924674605392" as="geometry" />
+        </mxCell>
+        <mxCell id="nxoXQXcr1-sde7bQaJMZ-6" value="" style="curved=1;endArrow=none;html=1;rounded=0;fontSize=15;edgeStyle=orthogonalEdgeStyle;exitX=0.039;exitY=0.679;exitDx=0;exitDy=0;entryX=0.971;entryY=0.66;entryDx=0;entryDy=0;endFill=0;strokeWidth=2;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="nxoXQXcr1-sde7bQaJMZ-4" source="nxoXQXcr1-sde7bQaJMZ-5" target="nxoXQXcr1-sde7bQaJMZ-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="223.1605663929382" y="73.1674966297961" as="sourcePoint" />
+            <mxPoint x="267.06164414083753" y="31.502947474177525" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="38.46464646464651" y="81.22" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Au_eIEvgqQtElC9Wct7o" name="iRL-therm-rel-7-wants">
+    <mxGraphModel dx="4083" dy="3698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3N0cLVORH_IwoJucUwyu-1" value="&lt;font&gt;&lt;b&gt;wants&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=24;spacingLeft=19;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-3164" y="-3098" width="439" height="134.84" as="geometry" />
+        </mxCell>
+        <mxCell id="3N0cLVORH_IwoJucUwyu-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000099;fontSize=15;fillColor=#FAFAFA;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-2971.27" y="-3091.22" width="121.27" height="121.27" as="geometry" />
+        </mxCell>
+        <mxCell id="3N0cLVORH_IwoJucUwyu-3" value="Heater On" style="text;whiteSpace=wrap;html=1;spacing=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2930" y="-3030" width="62.65" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3N0cLVORH_IwoJucUwyu-4" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-3020" y="-3091.22" width="77.35" height="81.22" as="geometry" />
+        </mxCell>
+        <mxCell id="3N0cLVORH_IwoJucUwyu-5" value="Off Signal Succeeded" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;fontSize=12;rounded=1;strokeWidth=2;fillColor=#d5e8d4;arcSize=50;spacingTop=-5;" vertex="1" parent="3N0cLVORH_IwoJucUwyu-4">
+          <mxGeometry width="72.36924674605392" height="72.36924674605392" as="geometry" />
+        </mxCell>
+        <mxCell id="3N0cLVORH_IwoJucUwyu-6" value="" style="curved=1;endArrow=none;html=1;rounded=0;fontSize=15;edgeStyle=orthogonalEdgeStyle;exitX=0.039;exitY=0.679;exitDx=0;exitDy=0;entryX=0.971;entryY=0.66;entryDx=0;entryDy=0;endFill=0;strokeWidth=2;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="3N0cLVORH_IwoJucUwyu-4" source="3N0cLVORH_IwoJucUwyu-5" target="3N0cLVORH_IwoJucUwyu-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="223.1605663929382" y="73.1674966297961" as="sourcePoint" />
+            <mxPoint x="267.06164414083753" y="31.502947474177525" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="38.46464646464651" y="81.22" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4KhcXFip8CfWlh6ND8Yw" name="iRL-therm-rel-8-wants">
+    <mxGraphModel dx="3974" dy="3634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xmdCdr6k1yUUbYF8yB7G-1" value="&lt;font&gt;&lt;b&gt;wants&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=24;spacingLeft=19;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-3164" y="-3098" width="439" height="134.84" as="geometry" />
+        </mxCell>
+        <mxCell id="xmdCdr6k1yUUbYF8yB7G-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000099;fontSize=15;fillColor=#FAFAFA;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-2971.27" y="-3091.22" width="121.27" height="121.27" as="geometry" />
+        </mxCell>
+        <mxCell id="xmdCdr6k1yUUbYF8yB7G-3" value="Heater On" style="text;whiteSpace=wrap;html=1;spacing=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2930" y="-3030" width="62.65" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xmdCdr6k1yUUbYF8yB7G-4" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-3020" y="-3091.22" width="77.35" height="81.22" as="geometry" />
+        </mxCell>
+        <mxCell id="xmdCdr6k1yUUbYF8yB7G-5" value="Off Signal Failed" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;fontSize=12;rounded=1;strokeWidth=2;fillColor=#d5e8d4;arcSize=50;spacingTop=-5;" vertex="1" parent="xmdCdr6k1yUUbYF8yB7G-4">
+          <mxGeometry width="72.36924674605392" height="72.36924674605392" as="geometry" />
+        </mxCell>
+        <mxCell id="xmdCdr6k1yUUbYF8yB7G-6" value="" style="curved=1;endArrow=none;html=1;rounded=0;fontSize=15;edgeStyle=orthogonalEdgeStyle;exitX=0.039;exitY=0.679;exitDx=0;exitDy=0;entryX=0.971;entryY=0.66;entryDx=0;entryDy=0;endFill=0;strokeWidth=2;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="xmdCdr6k1yUUbYF8yB7G-4" source="xmdCdr6k1yUUbYF8yB7G-5" target="xmdCdr6k1yUUbYF8yB7G-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="223.1605663929382" y="73.1674966297961" as="sourcePoint" />
+            <mxPoint x="267.06164414083753" y="31.502947474177525" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="38.46464646464651" y="81.22" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FeQZBwoRJbgXJpnwxUOL" name="iRL-therm-rel-9-wants">
+    <mxGraphModel dx="4389" dy="3877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PFaJaOlAOXJRQdc_WSFk-1" value="&lt;font&gt;&lt;b&gt;wants&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=24;spacingLeft=19;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-3164" y="-3098" width="439" height="134.84" as="geometry" />
+        </mxCell>
+        <mxCell id="PFaJaOlAOXJRQdc_WSFk-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000099;fontSize=15;fillColor=#FAFAFA;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-2971.27" y="-3091.22" width="121.27" height="121.27" as="geometry" />
+        </mxCell>
+        <mxCell id="PFaJaOlAOXJRQdc_WSFk-3" value="Minimize Running Time" style="text;whiteSpace=wrap;html=1;spacing=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2930" y="-3040.58" width="62.65" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PFaJaOlAOXJRQdc_WSFk-4" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-3020" y="-3091.22" width="77.35" height="81.22" as="geometry" />
+        </mxCell>
+        <mxCell id="PFaJaOlAOXJRQdc_WSFk-5" value="Heater On" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;fontSize=12;rounded=1;strokeWidth=2;fillColor=#d5e8d4;arcSize=50;spacingTop=-5;" vertex="1" parent="PFaJaOlAOXJRQdc_WSFk-4">
+          <mxGeometry width="72.36924674605392" height="72.36924674605392" as="geometry" />
+        </mxCell>
+        <mxCell id="PFaJaOlAOXJRQdc_WSFk-6" value="" style="curved=1;endArrow=none;html=1;rounded=0;fontSize=15;edgeStyle=orthogonalEdgeStyle;exitX=0.039;exitY=0.679;exitDx=0;exitDy=0;entryX=0.971;entryY=0.66;entryDx=0;entryDy=0;endFill=0;strokeWidth=2;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="PFaJaOlAOXJRQdc_WSFk-4" source="PFaJaOlAOXJRQdc_WSFk-5" target="PFaJaOlAOXJRQdc_WSFk-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="223.1605663929382" y="73.1674966297961" as="sourcePoint" />
+            <mxPoint x="267.06164414083753" y="31.502947474177525" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="38.46464646464651" y="81.22" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="P1F7y5oBeZOF15YZMAfe" name="iRL-therm-rel-10-wants">
+    <mxGraphModel dx="4389" dy="3877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-tedZONO_b6niffizKW5-1" value="&lt;font&gt;&lt;b&gt;wants&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=24;spacingLeft=19;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-3164" y="-3098" width="439" height="134.84" as="geometry" />
+        </mxCell>
+        <mxCell id="-tedZONO_b6niffizKW5-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000099;fontSize=15;fillColor=#FAFAFA;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-2971.27" y="-3091.22" width="121.27" height="121.27" as="geometry" />
+        </mxCell>
+        <mxCell id="-tedZONO_b6niffizKW5-3" value="&lt;span style=&quot;text-align: center; background-color: rgb(251, 251, 251);&quot;&gt;Maintain Ideal Temperature (current level)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;spacing=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2940.65" y="-3057.3" width="82.65" height="50.58" as="geometry" />
+        </mxCell>
+        <mxCell id="-tedZONO_b6niffizKW5-4" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-3028" y="-3098" width="87.35" height="91.28" as="geometry" />
+        </mxCell>
+        <mxCell id="-tedZONO_b6niffizKW5-5" value="Maintain Ideal Temperature (previous Level)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;fontSize=12;rounded=1;strokeWidth=2;fillColor=#d5e8d4;arcSize=50;spacingTop=-5;" vertex="1" parent="-tedZONO_b6niffizKW5-4">
+          <mxGeometry x="-10" width="91.28" height="91.28" as="geometry" />
+        </mxCell>
+        <mxCell id="-tedZONO_b6niffizKW5-6" value="" style="curved=1;endArrow=none;html=1;rounded=0;fontSize=15;edgeStyle=orthogonalEdgeStyle;exitX=0.039;exitY=0.679;exitDx=0;exitDy=0;entryX=0.971;entryY=0.66;entryDx=0;entryDy=0;endFill=0;strokeWidth=2;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="-tedZONO_b6niffizKW5-4" source="-tedZONO_b6niffizKW5-5" target="-tedZONO_b6niffizKW5-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="252.01131835065482" y="82.17605322051219" as="sourcePoint" />
+            <mxPoint x="301.5880364020964" y="35.38166545917845" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="36" y="101" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Xo7n9-qTVo7QPiPUUxzN" name="iRL-therm-rel-11-wants">
+    <mxGraphModel dx="4083" dy="3698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="15l4UXV6gwWgNmLZMTX--1" value="&lt;font&gt;&lt;b&gt;wants&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=24;spacingLeft=19;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-3164" y="-3098" width="439" height="134.84" as="geometry" />
+        </mxCell>
+        <mxCell id="15l4UXV6gwWgNmLZMTX--2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000099;fontSize=15;fillColor=#FAFAFA;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-2971.27" y="-3091.22" width="121.27" height="121.27" as="geometry" />
+        </mxCell>
+        <mxCell id="15l4UXV6gwWgNmLZMTX--4" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-3020" y="-3091.22" width="77.35" height="81.22" as="geometry" />
+        </mxCell>
+        <mxCell id="15l4UXV6gwWgNmLZMTX--5" value="Heater On" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;fontSize=12;rounded=1;strokeWidth=2;fillColor=#d5e8d4;arcSize=50;spacingTop=-5;" vertex="1" parent="15l4UXV6gwWgNmLZMTX--4">
+          <mxGeometry width="72.36924674605392" height="72.36924674605392" as="geometry" />
+        </mxCell>
+        <mxCell id="15l4UXV6gwWgNmLZMTX--6" value="" style="curved=1;endArrow=none;html=1;rounded=0;fontSize=15;edgeStyle=orthogonalEdgeStyle;exitX=0.039;exitY=0.679;exitDx=0;exitDy=0;entryX=0.971;entryY=0.66;entryDx=0;entryDy=0;endFill=0;strokeWidth=2;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="15l4UXV6gwWgNmLZMTX--4" source="15l4UXV6gwWgNmLZMTX--5" target="15l4UXV6gwWgNmLZMTX--5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="223.1605663929382" y="73.1674966297961" as="sourcePoint" />
+            <mxPoint x="267.06164414083753" y="31.502947474177525" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="38.46464646464651" y="81.22" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8uh5paWOAtBpblk616uu-1" value="&lt;span style=&quot;text-align: center; background-color: rgb(251, 251, 251);&quot;&gt;Maintain Ideal Temperature (current level)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;spacing=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2940.65" y="-3057.3" width="82.65" height="50.58" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="enEovX3N7CVmyAMt918q" name="iRL-therm-rel-12-wants">
+    <mxGraphModel dx="4547" dy="3969" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oxSg259itc_nNQgw098U-1" value="&lt;font&gt;&lt;b&gt;wants&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=24;spacingLeft=19;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-3164" y="-3098" width="439" height="134.84" as="geometry" />
+        </mxCell>
+        <mxCell id="oxSg259itc_nNQgw098U-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000099;fontSize=15;fillColor=#FAFAFA;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-2971.27" y="-3091.22" width="121.27" height="121.27" as="geometry" />
+        </mxCell>
+        <mxCell id="oxSg259itc_nNQgw098U-3" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-3020" y="-3091.22" width="77.35" height="81.22" as="geometry" />
+        </mxCell>
+        <mxCell id="oxSg259itc_nNQgw098U-4" value="Minimize Running Time" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;fontSize=12;rounded=1;strokeWidth=2;fillColor=#d5e8d4;arcSize=50;spacingTop=-5;" vertex="1" parent="oxSg259itc_nNQgw098U-3">
+          <mxGeometry width="72.36924674605392" height="72.36924674605392" as="geometry" />
+        </mxCell>
+        <mxCell id="oxSg259itc_nNQgw098U-5" value="" style="curved=1;endArrow=none;html=1;rounded=0;fontSize=15;edgeStyle=orthogonalEdgeStyle;exitX=0.039;exitY=0.679;exitDx=0;exitDy=0;entryX=0.971;entryY=0.66;entryDx=0;entryDy=0;endFill=0;strokeWidth=2;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="oxSg259itc_nNQgw098U-3" source="oxSg259itc_nNQgw098U-4" target="oxSg259itc_nNQgw098U-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="223.1605663929382" y="73.1674966297961" as="sourcePoint" />
+            <mxPoint x="267.06164414083753" y="31.502947474177525" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="38.46464646464651" y="81.22" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oxSg259itc_nNQgw098U-6" value="&lt;span style=&quot;text-align: center; background-color: rgb(251, 251, 251);&quot;&gt;Minimize Cost&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;spacing=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2940.65" y="-3030" width="82.65" height="23.28" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="iRL-therm-rel-13-wants" id="P5TjuPJcCvfCDk246iFM">
+    <mxGraphModel dx="4219" dy="3778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="KZR2G05XeIorMjJvlH5d-0" />
+        <mxCell id="KZR2G05XeIorMjJvlH5d-1" parent="KZR2G05XeIorMjJvlH5d-0" />
+        <mxCell id="xR8H1NITT-TIG-lQQ_kJ-0" value="&lt;font&gt;&lt;b&gt;wants&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=24;spacingLeft=19;horizontal=1;verticalAlign=top;" vertex="1" parent="KZR2G05XeIorMjJvlH5d-1">
+          <mxGeometry x="-3164" y="-3098" width="439" height="134.84" as="geometry" />
+        </mxCell>
+        <mxCell id="xR8H1NITT-TIG-lQQ_kJ-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000099;fontSize=15;fillColor=#FAFAFA;dashed=1;" vertex="1" parent="KZR2G05XeIorMjJvlH5d-1">
+          <mxGeometry x="-2971.27" y="-3091.22" width="121.27" height="121.27" as="geometry" />
+        </mxCell>
+        <mxCell id="xR8H1NITT-TIG-lQQ_kJ-2" value="" style="group" vertex="1" connectable="0" parent="KZR2G05XeIorMjJvlH5d-1">
+          <mxGeometry x="-3020" y="-3091.22" width="77.35" height="81.22" as="geometry" />
+        </mxCell>
+        <mxCell id="xR8H1NITT-TIG-lQQ_kJ-3" value="Maintain Ideal Temperature" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;fontSize=12;rounded=1;strokeWidth=2;fillColor=#d5e8d4;arcSize=50;spacingTop=-14;spacingBottom=0;" vertex="1" parent="xR8H1NITT-TIG-lQQ_kJ-2">
+          <mxGeometry width="72.36924674605392" height="72.36924674605392" as="geometry" />
+        </mxCell>
+        <mxCell id="xR8H1NITT-TIG-lQQ_kJ-4" value="" style="curved=1;endArrow=none;html=1;rounded=0;fontSize=15;edgeStyle=orthogonalEdgeStyle;exitX=0.039;exitY=0.679;exitDx=0;exitDy=0;entryX=0.971;entryY=0.66;entryDx=0;entryDy=0;endFill=0;strokeWidth=2;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="xR8H1NITT-TIG-lQQ_kJ-2" source="xR8H1NITT-TIG-lQQ_kJ-3" target="xR8H1NITT-TIG-lQQ_kJ-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="223.1605663929382" y="73.1674966297961" as="sourcePoint" />
+            <mxPoint x="267.06164414083753" y="31.502947474177525" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="38.46464646464651" y="81.22" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xR8H1NITT-TIG-lQQ_kJ-5" value="&lt;span style=&quot;text-align: center; background-color: rgb(251, 251, 251);&quot;&gt;Maximize Comfort&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;spacing=0;labelBackgroundColor=default;" vertex="1" parent="KZR2G05XeIorMjJvlH5d-1">
+          <mxGeometry x="-2930" y="-3040" width="50.65" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="KmZoFBOVh3dv930wX-Ls" name="iRL-therm-rel-14-wants">
+    <mxGraphModel dx="4834" dy="4136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QwlHYQ_RuuCpGdMc0lQA-1" value="&lt;font&gt;&lt;b&gt;wants&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=24;spacingLeft=19;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-3164" y="-3098" width="439" height="134.84" as="geometry" />
+        </mxCell>
+        <mxCell id="QwlHYQ_RuuCpGdMc0lQA-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000099;fontSize=15;fillColor=#FAFAFA;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="-2971.27" y="-3091.22" width="121.27" height="121.27" as="geometry" />
+        </mxCell>
+        <mxCell id="QwlHYQ_RuuCpGdMc0lQA-3" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-3020" y="-3091.22" width="77.35" height="81.22" as="geometry" />
+        </mxCell>
+        <mxCell id="QwlHYQ_RuuCpGdMc0lQA-4" value="Controller" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;fontSize=12;rounded=1;strokeWidth=2;fillColor=#d5e8d4;arcSize=50;spacingTop=-2;spacingBottom=0;" parent="QwlHYQ_RuuCpGdMc0lQA-3" vertex="1">
+          <mxGeometry width="72.36924674605392" height="72.36924674605392" as="geometry" />
+        </mxCell>
+        <mxCell id="QwlHYQ_RuuCpGdMc0lQA-5" value="" style="curved=1;endArrow=none;html=1;rounded=0;fontSize=15;edgeStyle=orthogonalEdgeStyle;exitX=0.039;exitY=0.679;exitDx=0;exitDy=0;entryX=0.971;entryY=0.66;entryDx=0;entryDy=0;endFill=0;strokeWidth=2;entryPerimeter=0;exitPerimeter=0;" parent="QwlHYQ_RuuCpGdMc0lQA-3" source="QwlHYQ_RuuCpGdMc0lQA-4" target="QwlHYQ_RuuCpGdMc0lQA-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="223.1605663929382" y="73.1674966297961" as="sourcePoint" />
+            <mxPoint x="267.06164414083753" y="31.502947474177525" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="38.46464646464651" y="81.22" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QwlHYQ_RuuCpGdMc0lQA-6" value="&lt;span style=&quot;text-align: center; background-color: rgb(251, 251, 251);&quot;&gt;Temperature Controlled&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;spacing=0;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-2930" y="-3040" width="50.65" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

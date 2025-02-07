@@ -8,7 +8,7 @@ generateFiles = TRUE
 #
 # Loading Language and Concepts
 #
-configID = "config4ethics"
+configID = "config"
 configFile = paste0(dataPath, configID,".xlsx")
 
 concepts_df <- read_excel(configFile, sheet = "Concepts")
@@ -30,7 +30,9 @@ key_att_ = tribble(~psy_item, ~language, ~concept)
 
 for (langID in c("iRL")){
   outFile = paste0(outPath,langID,"-checked.txt")
-  if (generateFiles) sink(outFile, append=FALSE)
+  if (generateFiles) {
+    sink(outFile, append=FALSE)
+  }
   prolific(1)
   print_preliminary(langID,
                     sample(1:5, size = 3, replace = FALSE),
@@ -46,7 +48,9 @@ for (langID in c("iRL")){
   demographics(FALSE)
   pilot(TRUE)
   prolific(2)
-  if (generateFiles) sink()
+  if (generateFiles) {
+    sink()
+  }
 }
 
 if (generateFiles){
