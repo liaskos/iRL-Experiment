@@ -1,0 +1,2161 @@
+{
+  "title" : "",
+  "description" : "",
+  "author" : "",
+  "targetLoudness" : -18.0,
+  "shouldApplyLoudnessNormalization" : true,
+  "videoFormatFrameRate" : 30,
+  "audioFormatSampleRate" : 44100,
+  "allowSubFrameEditing" : false,
+  "width" : 1588.0,
+  "height" : 820.0,
+  "version" : "6.0",
+  "editRate" : 705600000,
+  "authoringClientName" :  {
+    "name" : "Camtasia",
+    "platform" : "Windows",
+    "version" : "2022.5.5"
+  },
+  "sourceBin" : [
+    {
+      "id" : 1,
+      "src" : "Overlaps.wav",
+      "rect" : [0, 0, 0, 0],
+      "lastMod" : "20221018T161906",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 3414784],
+          "type" : 2,
+          "editRate" : 44100,
+          "trackRect" : [0, 0, 0, 0],
+          "sampleRate" : 44100,
+          "bitDepth" : 16,
+          "numChannels" : 1,
+          "integratedLUFS" : -16.9896330117178,
+          "peakLevel" : 0.97955322265625,
+          "metaData" : ""
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20221018T170945.466236"
+      }
+    },
+    {
+      "id" : 2,
+      "src" : "Rec 2022-10-18-1-14-57-PM.trec",
+      "rect" : [0, 0, 1689, 821],
+      "lastMod" : "20221018T171457",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 2372],
+          "type" : 0,
+          "editRate" : 30,
+          "trackRect" : [0, 0, 1689, 821],
+          "sampleRate" : "288873/10000",
+          "bitDepth" : 24,
+          "numChannels" : 0,
+          "integratedLUFS" : 100.0,
+          "peakLevel" : -1.0,
+          "metaData" : "Rec 2022-10-18-1-14-57-PM.trec;2b7b6a00-7a1f-11e2-83d0-0017f200be7f;2b7b6aef-7a1f-11e2-83d0-0017f200be7f;2b7b6af0-7a1f-11e2-83d0-0017f200be7f;2b7b6af1-7a1f-11e2-83d0-0017f200be7f;2b7b6af2-7a1f-11e2-83d0-0017f200be7f;2b7b6af3-7a1f-11e2-83d0-0017f200be7f;2b7b6af5-7a1f-11e2-83d0-0017f200be7f;2b7b6af6-7a1f-11e2-83d0-0017f200be7f;2b7b6af7-7a1f-11e2-83d0-0017f200be7f;2b7b6af8-7a1f-11e2-83d0-0017f200be7f;2b7b6af9-7a1f-11e2-83d0-0017f200be7f;2b7b6afa-7a1f-11e2-83d0-0017f200be7f;"
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20221018T171458.248370"
+      }
+    },
+    {
+      "id" : 3,
+      "src" : "Rec 2022-10-18-1-28-58-PM.trec",
+      "rect" : [0, 0, 1689, 821],
+      "lastMod" : "20221018T172858",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 399],
+          "type" : 0,
+          "editRate" : 30,
+          "trackRect" : [0, 0, 1689, 821],
+          "sampleRate" : "295489/10000",
+          "bitDepth" : 24,
+          "numChannels" : 0,
+          "integratedLUFS" : 100.0,
+          "peakLevel" : -1.0,
+          "metaData" : "Rec 2022-10-18-1-28-58-PM.trec;2b7b6a00-7a1f-11e2-83d0-0017f200be7f;2b7b6aef-7a1f-11e2-83d0-0017f200be7f;2b7b6af0-7a1f-11e2-83d0-0017f200be7f;2b7b6af1-7a1f-11e2-83d0-0017f200be7f;2b7b6af2-7a1f-11e2-83d0-0017f200be7f;2b7b6af3-7a1f-11e2-83d0-0017f200be7f;2b7b6af5-7a1f-11e2-83d0-0017f200be7f;2b7b6af6-7a1f-11e2-83d0-0017f200be7f;2b7b6af7-7a1f-11e2-83d0-0017f200be7f;2b7b6af8-7a1f-11e2-83d0-0017f200be7f;2b7b6af9-7a1f-11e2-83d0-0017f200be7f;2b7b6afa-7a1f-11e2-83d0-0017f200be7f;"
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20221018T172858.645516"
+      }
+    },
+    {
+      "id" : 4,
+      "src" : "Overlap(1).PNG",
+      "rect" : [0, 0, 1280, 720],
+      "lastMod" : "20250209T200414",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 1],
+          "type" : 1,
+          "editRate" : 10000000,
+          "trackRect" : [0, 0, 1280, 720],
+          "sampleRate" : 0,
+          "bitDepth" : 8,
+          "numChannels" : 0,
+          "integratedLUFS" : 100.0,
+          "peakLevel" : -1.0,
+          "metaData" : ""
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20250209T200812.187678"
+      }
+    }
+  ],
+  "timeline" : {
+    "id" : 5,
+    "sceneTrack" : {
+      "scenes" : [
+        {
+          "csml" : {
+            "tracks" : [
+              {
+                "trackIndex" : 0,
+                "medias" : [
+                  {
+                    "id" : 6,
+                    "_type" : "StitchedMedia",
+                    "minMediaStart" : 0,
+                    "attributes" : {
+                      "ident" : "Overlaps",
+                      "gain" : 1.0,
+                      "mixToMono" : false,
+                      "loudnessNormalization" : true,
+                      "sourceFileOffset" : 0
+                    },
+                    "parameters" : {
+                      "volume" : 1.0,
+                      "smoothCursorAcrossEditDuration" : 0
+                    },
+                    "medias" : [
+                        {
+                          "id" : 7,
+                          "_type" : "AMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Overlaps",
+                            "gain" : 1.0,
+                            "mixToMono" : false,
+                            "loudnessNormalization" : true,
+                            "sourceFileOffset" : 0
+                          },
+                            "channelNumber" : "0",
+                          "effects" : [
+
+                          ],
+                          "start" : 0,
+                          "duration" : 823200000,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 823200000,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "clipSpeedAttribute" : false
+                          },
+                          "animationTracks" : {
+
+                          }
+                        },
+                        {
+                          "id" : 8,
+                          "_type" : "AMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Overlaps",
+                            "gain" : 1.0,
+                            "mixToMono" : false,
+                            "loudnessNormalization" : true,
+                            "sourceFileOffset" : 0
+                          },
+                            "channelNumber" : "0",
+                          "effects" : [
+
+                          ],
+                          "start" : 823200000,
+                          "duration" : 53672640000,
+                          "mediaStart" : 940800000,
+                          "mediaDuration" : 53672640000,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "clipSpeedAttribute" : false
+                          },
+                          "animationTracks" : {
+
+                          }
+                        }
+                    ],
+                    "effects" : [
+
+                    ],
+                    "start" : 0,
+                    "duration" : 54495840000,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 54495840000,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 1,
+                "medias" : [
+                  {
+                    "id" : 9,
+                    "_type" : "IMFile",
+                    "src" : 4,
+                    "trackNumber" : 0,
+                    "trimStartSum" : 0,
+                    "attributes" : {
+                      "ident" : "Overlap"
+                    },
+                    "parameters" : {
+                      "translation0" : {
+                        "type" : "double",
+                        "defaultValue" : -1.20792265079217e-13,
+                        "interp" : "eioe"
+                      },
+                      "translation1" : {
+                        "type" : "double",
+                        "defaultValue" : 3.5527136788005e-15,
+                        "interp" : "eioe"
+                      },
+                      "scale0" : {
+                        "type" : "double",
+                        "defaultValue" : 1.13888888888889,
+                        "interp" : "eioe"
+                      },
+                      "scale1" : {
+                        "type" : "double",
+                        "defaultValue" : 1.13888888888889,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop0" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop1" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop2" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop3" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop0" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop1" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop2" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop3" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      }
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 0,
+                    "duration" : 823200000,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 1,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "default-anchor0" : 0.0,
+                      "default-anchor1" : 0.0,
+                      "default-anchor2" : 0.0,
+                      "default-height" : 720.0,
+                      "default-rotation0" : 0.0,
+                      "default-rotation1" : 0.0,
+                      "default-rotation2" : 0.0,
+                      "default-scale0" : 1.0,
+                      "default-scale1" : 1.0,
+                      "default-scale2" : 1.0,
+                      "default-shear0" : 0.0,
+                      "default-shear1" : 0.0,
+                      "default-shear2" : 0.0,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0,
+                      "default-translation2" : 0.0,
+                      "default-width" : 1280.0
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 10,
+                    "_type" : "IMFile",
+                    "src" : 4,
+                    "trackNumber" : 0,
+                    "trimStartSum" : 940800000,
+                    "attributes" : {
+                      "ident" : "Overlap"
+                    },
+                    "parameters" : {
+                      "translation0" : {
+                        "type" : "double",
+                        "defaultValue" : -7.10542735760098e-15,
+                        "interp" : "eioe"
+                      },
+                      "translation1" : {
+                        "type" : "double",
+                        "defaultValue" : -3.94351218346856e-13,
+                        "interp" : "eioe"
+                      },
+                      "scale0" : {
+                        "type" : "double",
+                        "defaultValue" : 1.13888888888889,
+                        "interp" : "eioe"
+                      },
+                      "scale1" : {
+                        "type" : "double",
+                        "defaultValue" : 1.13888888888889,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop0" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop1" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop2" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop3" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop0" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop1" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop2" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop3" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      }
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 823200000,
+                    "duration" : 53672640000,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 1,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "default-anchor0" : 0.0,
+                      "default-anchor1" : 0.0,
+                      "default-anchor2" : 0.0,
+                      "default-height" : 720.0,
+                      "default-rotation0" : 0.0,
+                      "default-rotation1" : 0.0,
+                      "default-rotation2" : 0.0,
+                      "default-scale0" : 1.0,
+                      "default-scale1" : 1.0,
+                      "default-scale2" : 1.0,
+                      "default-shear0" : 0.0,
+                      "default-shear1" : 0.0,
+                      "default-shear2" : 0.0,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0,
+                      "default-translation2" : 0.0,
+                      "default-width" : 1280.0
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 2,
+                "medias" : [
+                  {
+                    "id" : 11,
+                    "_type" : "Callout",
+                    "def" : {
+                        "kind" : "TypeWinSVG",
+                        "shape" : "",
+                        "style" : "",
+                        "DrawTime" : 1.0,
+                        "borderColorBlue" : 0.0,
+                        "borderColorGreen" : 0.0,
+                        "borderColorRed" : 1.0,
+                        "borderWidth" : 5.0,
+                        "enable-ligatures" : 0.0,
+                        "flipOnXAxis" : 0.0,
+                        "flipOnYAxis" : 0.0,
+                        "height" : 205.0,
+                        "width" : 397.0,
+                        "filename" : "C:\\Users\\sotirios\\AppData\\Local\\TechSmith\\Camtasia Studio\\22.0\\Features\\Tools\\Annotations\\Defaults\\anim_straightline.svg",
+                        "name" : "",
+                        "resize-behavior" : "resizeCallout",
+                        "xmlContent" : "﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t width=\"128px\" height=\"109px\" viewBox=\"0 0 128 109\" enable-background=\"new 0 0 128 109\" xml:space=\"preserve\">\n<path fill=\"none\" d=\"M 0 50 L 128 49\"/>\n</svg>\n"
+                    },
+                    "attributes" : {
+                      "ident" : "",
+                      "autoRotateText" : true
+                    },
+                    "parameters" : {
+                      "translation0" : -9.72268626795975,
+                      "translation1" : 135.256097560977,
+                      "scale0" : 3.15641703016526,
+                      "scale1" : 0.0346222486615109,
+                      "sourceCrop0" : 0.0,
+                      "sourceCrop1" : 0.0,
+                      "sourceCrop2" : 0.0,
+                      "sourceCrop3" : 0.0,
+                      "geometryCrop0" : 0.0,
+                      "geometryCrop1" : 0.0,
+                      "geometryCrop2" : 0.0,
+                      "geometryCrop3" : 0.0
+                    },
+                    "leftEdgeMods" : [
+                      {
+                        "group" : "DrawPercentageFade",
+                        "duration" : 2918074574,
+                        "parameters" : [
+                          {
+                            "name" : "DrawTime",
+                              "func" : "FadeInFunc"
+                            }
+                        ]
+                      }
+                    ],
+                    "effects" : [
+
+                    ],
+                    "start" : 0,
+                    "duration" : 3528000000,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 3528000000,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "default-anchor0" : 0.0,
+                      "default-anchor1" : 0.0,
+                      "default-anchor2" : 0.0,
+                      "default-height" : 205.0,
+                      "default-legacy-drawtime-duration" : 1.0,
+                      "default-rotation0" : 0.0,
+                      "default-rotation1" : 0.0,
+                      "default-rotation2" : 0.0,
+                      "default-scale0" : 1.0,
+                      "default-scale1" : 1.0,
+                      "default-scale2" : 1.0,
+                      "default-shear0" : 0.0,
+                      "default-shear1" : 0.0,
+                      "default-shear2" : 0.0,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0,
+                      "default-translation2" : 0.0,
+                      "default-width" : 397.0
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 12,
+                    "_type" : "Callout",
+                    "def" : {
+                        "kind" : "remix",
+                        "shape" : "shape-rectangle",
+                        "style" : "basic",
+                        "fill-color-blue" : 1.0,
+                        "fill-color-green" : 1.0,
+                        "fill-color-opacity" : 1.0,
+                        "fill-color-red" : 1.0,
+                        "height" : 583.793103448276,
+                        "stroke-color-blue" : 1.0,
+                        "stroke-color-green" : 1.0,
+                        "stroke-color-opacity" : 1.0,
+                        "stroke-color-red" : 1.0,
+                        "stroke-width" : 0.0,
+                        "width" : 1457.77777777778,
+                        "fill-style" : "solid",
+                        "stroke-style" : "solid"
+                    },
+                    "attributes" : {
+                      "ident" : "",
+                      "autoRotateText" : true
+                    },
+                    "parameters" : {
+                      "translation0" : -1.13686837721616e-13,
+                      "translation1" : -118.103448275862,
+                      "sourceCrop0" : 0.0,
+                      "sourceCrop1" : 0.0,
+                      "sourceCrop2" : 0.0,
+                      "sourceCrop3" : 0.0,
+                      "geometryCrop0" : 0.0,
+                      "geometryCrop1" : 0.0,
+                      "geometryCrop2" : 0.0,
+                      "geometryCrop3" : 0.0
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 22743840000,
+                    "duration" : 31752000000,
+                    "mediaStart" : 11219040000,
+                    "mediaDuration" : 31752000000,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "default-anchor0" : 0.0,
+                      "default-anchor1" : 0.0,
+                      "default-anchor2" : 0.0,
+                      "default-height" : 180.0,
+                      "default-rotation0" : 0.0,
+                      "default-rotation1" : 0.0,
+                      "default-rotation2" : 0.0,
+                      "default-scale0" : 1.0,
+                      "default-scale1" : 1.0,
+                      "default-scale2" : 1.0,
+                      "default-shear0" : 0.0,
+                      "default-shear1" : 0.0,
+                      "default-shear2" : 0.0,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0,
+                      "default-translation2" : 0.0,
+                      "default-width" : 240.0
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ],
+                "transitions" : [
+                  {
+                    "name" : "Fade",
+                    "duration" : 705600000,
+                    "leftMedia" : 11,
+                    "attributes" : {
+                      "bypass" : false,
+                      "reverse" : false,
+                      "trivial" : false,
+                      "useAudioPreRoll" : true,
+                      "useVisualPreRoll" : true
+                    }
+
+                  },
+                  {
+                    "name" : "Fade",
+                    "duration" : 705600000,
+                    "rightMedia" : 12,
+                    "attributes" : {
+                      "bypass" : false,
+                      "reverse" : false,
+                      "trivial" : false,
+                      "useAudioPreRoll" : true,
+                      "useVisualPreRoll" : true
+                    }
+
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 3,
+                "medias" : [
+                  {
+                    "id" : 13,
+                    "_type" : "Callout",
+                    "def" : {
+                        "kind" : "TypeWinSVG",
+                        "shape" : "",
+                        "style" : "",
+                        "DrawTime" : 1.0,
+                        "borderColorBlue" : 0.0,
+                        "borderColorGreen" : 0.0,
+                        "borderColorRed" : 1.0,
+                        "borderWidth" : 5.0,
+                        "enable-ligatures" : 0.0,
+                        "flipOnXAxis" : 0.0,
+                        "flipOnYAxis" : 0.0,
+                        "height" : 205.0,
+                        "width" : 397.0,
+                        "filename" : "C:\\Users\\sotirios\\AppData\\Local\\TechSmith\\Camtasia Studio\\22.0\\Features\\Tools\\Annotations\\Defaults\\anim_straightline.svg",
+                        "name" : "",
+                        "resize-behavior" : "resizeCallout",
+                        "xmlContent" : "﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t width=\"128px\" height=\"109px\" viewBox=\"0 0 128 109\" enable-background=\"new 0 0 128 109\" xml:space=\"preserve\">\n<path fill=\"none\" d=\"M 0 50 L 128 49\"/>\n</svg>\n"
+                    },
+                    "attributes" : {
+                      "ident" : "",
+                      "autoRotateText" : true
+                    },
+                    "parameters" : {
+                      "translation0" : -10.9589041095895,
+                      "translation1" : 96.8999331774139,
+                      "scale0" : 3.15641703016526,
+                      "scale1" : 0.0346222486615109,
+                      "sourceCrop0" : 0.0,
+                      "sourceCrop1" : 0.0,
+                      "sourceCrop2" : 0.0,
+                      "sourceCrop3" : 0.0,
+                      "geometryCrop0" : 0.0,
+                      "geometryCrop1" : 0.0,
+                      "geometryCrop2" : 0.0,
+                      "geometryCrop3" : 0.0
+                    },
+                    "leftEdgeMods" : [
+                      {
+                        "group" : "DrawPercentageFade",
+                        "duration" : 2768583050,
+                        "parameters" : [
+                          {
+                            "name" : "DrawTime",
+                              "func" : "FadeInFunc"
+                            }
+                        ]
+                      }
+                    ],
+                    "effects" : [
+
+                    ],
+                    "start" : 3269280000,
+                    "duration" : 3927840000,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 3927840000,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "default-anchor0" : 0.0,
+                      "default-anchor1" : 0.0,
+                      "default-anchor2" : 0.0,
+                      "default-height" : 205.0,
+                      "default-legacy-drawtime-duration" : 1.0,
+                      "default-rotation0" : 0.0,
+                      "default-rotation1" : 0.0,
+                      "default-rotation2" : 0.0,
+                      "default-scale0" : 1.0,
+                      "default-scale1" : 1.0,
+                      "default-scale2" : 1.0,
+                      "default-shear0" : 0.0,
+                      "default-shear1" : 0.0,
+                      "default-shear2" : 0.0,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0,
+                      "default-translation2" : 0.0,
+                      "default-width" : 397.0
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 14,
+                    "_type" : "ScreenVMFile",
+                    "src" : 2,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Rec 2022-10-18-1-14-57-PM"
+                    },
+                    "parameters" : {
+                      "translation0" : {
+                        "type" : "double",
+                        "defaultValue" : -0.407689060861578,
+                        "interp" : "eioe"
+                      },
+                      "translation1" : {
+                        "type" : "double",
+                        "defaultValue" : 33.2980532660792,
+                        "interp" : "eioe"
+                      },
+                      "scale0" : {
+                        "type" : "double",
+                        "defaultValue" : 0.827418237898884,
+                        "interp" : "eioe"
+                      },
+                      "scale1" : {
+                        "type" : "double",
+                        "defaultValue" : 0.827418237898884,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop0" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop1" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop2" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop3" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop0" : {
+                        "type" : "double",
+                        "defaultValue" : 61.2376917792534,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop1" : {
+                        "type" : "double",
+                        "defaultValue" : 398.044996565148,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop2" : {
+                        "type" : "double",
+                        "defaultValue" : 53.1801007556675,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop3" : {
+                        "type" : "double",
+                        "defaultValue" : 78.9643920311426,
+                        "interp" : "eioe"
+                      },
+                      "cursorScale" : {
+                        "type" : "double",
+                        "defaultValue" : 2.25,
+                        "interp" : "linr"
+                      },
+                      "cursorOpacity" : {
+                        "type" : "double",
+                        "defaultValue" : 1.0,
+                        "interp" : "linr"
+                      },
+                      "smoothCursorAcrossEditDuration" : 0
+                    },
+                    "effects" : [
+
+                    ],
+                    "start" : 22743840000,
+                    "duration" : 24155040000,
+                    "mediaStart" : 22861440000,
+                    "mediaDuration" : 24155040000,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "AutoAppliedSmartFocus" : "False",
+                      "clipSpeedAttribute" : false,
+                      "default-anchor0" : 0.0,
+                      "default-anchor1" : 0.0,
+                      "default-anchor2" : 0.0,
+                      "default-geometryCrop0" : 0.0,
+                      "default-geometryCrop1" : 0.0,
+                      "default-geometryCrop2" : 0.0,
+                      "default-geometryCrop3" : 0.0,
+                      "default-height" : 771.905269390172,
+                      "default-rotation0" : 0.0,
+                      "default-rotation1" : 0.0,
+                      "default-rotation2" : 0.0,
+                      "default-scale0" : 0.940201302545885,
+                      "default-scale1" : 0.940201302545885,
+                      "default-scale2" : 1.0,
+                      "default-shear0" : 0.0,
+                      "default-shear1" : 0.0,
+                      "default-shear2" : 0.0,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0,
+                      "default-translation2" : 0.0,
+                      "default-width" : 1588.0
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ],
+                "transitions" : [
+                  {
+                    "name" : "Fade",
+                    "duration" : 705600000,
+                    "leftMedia" : 13,
+                    "attributes" : {
+                      "bypass" : false,
+                      "reverse" : false,
+                      "trivial" : false,
+                      "useAudioPreRoll" : true,
+                      "useVisualPreRoll" : true
+                    }
+
+                  },
+                  {
+                    "name" : "Fade",
+                    "duration" : 705600000,
+                    "rightMedia" : 14,
+                    "attributes" : {
+                      "bypass" : false,
+                      "reverse" : false,
+                      "trivial" : false,
+                      "useAudioPreRoll" : true,
+                      "useVisualPreRoll" : true
+                    }
+
+                  },
+                  {
+                    "name" : "Fade",
+                    "duration" : 705600000,
+                    "leftMedia" : 14,
+                    "attributes" : {
+                      "bypass" : false,
+                      "reverse" : false,
+                      "trivial" : false,
+                      "useAudioPreRoll" : true,
+                      "useVisualPreRoll" : true
+                    }
+
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 4,
+                "medias" : [
+                  {
+                    "id" : 15,
+                    "_type" : "Callout",
+                    "def" : {
+                        "kind" : "TypeWinSVG",
+                        "shape" : "",
+                        "style" : "",
+                        "DrawTime" : {
+                          "type" : "double",
+                          "defaultValue" : 1.0,
+                          "interp" : "linr"
+                        },
+                        "borderColorBlue" : {
+                          "type" : "double",
+                          "defaultValue" : 0.0,
+                          "interp" : "linr"
+                        },
+                        "borderColorGreen" : {
+                          "type" : "double",
+                          "defaultValue" : 0.0,
+                          "interp" : "linr"
+                        },
+                        "borderColorRed" : {
+                          "type" : "double",
+                          "defaultValue" : 1.0,
+                          "interp" : "linr"
+                        },
+                        "borderWidth" : {
+                          "type" : "double",
+                          "defaultValue" : 5.0,
+                          "interp" : "linr"
+                        },
+                        "enable-ligatures" : {
+                          "type" : "double",
+                          "defaultValue" : 0.0,
+                          "interp" : "linr"
+                        },
+                        "flipOnXAxis" : {
+                          "type" : "double",
+                          "defaultValue" : 0.0,
+                          "interp" : "linr"
+                        },
+                        "flipOnYAxis" : {
+                          "type" : "double",
+                          "defaultValue" : 0.0,
+                          "interp" : "linr"
+                        },
+                        "height" : {
+                          "type" : "double",
+                          "defaultValue" : 205.0,
+                          "interp" : "linr"
+                        },
+                        "width" : {
+                          "type" : "double",
+                          "defaultValue" : 397.0,
+                          "interp" : "linr"
+                        },
+                        "filename" : "C:\\Users\\sotirios\\AppData\\Local\\TechSmith\\Camtasia Studio\\22.0\\Features\\Tools\\Annotations\\Defaults\\anim_straightline.svg",
+                        "name" : "",
+                        "resize-behavior" : "resizeCallout",
+                        "xmlContent" : "﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t width=\"128px\" height=\"109px\" viewBox=\"0 0 128 109\" enable-background=\"new 0 0 128 109\" xml:space=\"preserve\">\n<path fill=\"none\" d=\"M 0 50 L 128 49\"/>\n</svg>\n"
+                    },
+                    "attributes" : {
+                      "ident" : "",
+                      "autoRotateText" : true
+                    },
+                    "parameters" : {
+                      "translation0" : {
+                        "type" : "double",
+                        "defaultValue" : -15.0684931506849,
+                        "interp" : "eioe"
+                      },
+                      "translation1" : {
+                        "type" : "double",
+                        "defaultValue" : 58.5437687938524,
+                        "interp" : "eioe"
+                      },
+                      "scale0" : {
+                        "type" : "double",
+                        "defaultValue" : 3.15641703016526,
+                        "interp" : "eioe"
+                      },
+                      "scale1" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0346222486615109,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop0" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop1" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop2" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop3" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop0" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop1" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop2" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop3" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      }
+                    },
+                    "leftEdgeMods" : [
+                      {
+                        "group" : "DrawPercentageFade",
+                        "duration" : 3175200000,
+                        "parameters" : [
+                          {
+                            "name" : "DrawTime",
+                              "func" : "FadeInFunc"
+                            }
+                        ]
+                      }
+                    ],
+                    "effects" : [
+
+                    ],
+                    "start" : 6797280000,
+                    "duration" : 4445280000,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 4445280000,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "default-anchor0" : 0.0,
+                      "default-anchor1" : 0.0,
+                      "default-anchor2" : 0.0,
+                      "default-height" : 205.0,
+                      "default-legacy-drawtime-duration" : 1.0,
+                      "default-rotation0" : 0.0,
+                      "default-rotation1" : 0.0,
+                      "default-rotation2" : 0.0,
+                      "default-scale0" : 1.0,
+                      "default-scale1" : 1.0,
+                      "default-scale2" : 1.0,
+                      "default-shear0" : 0.0,
+                      "default-shear1" : 0.0,
+                      "default-shear2" : 0.0,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0,
+                      "default-translation2" : 0.0,
+                      "default-width" : 397.0
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 16,
+                    "_type" : "Callout",
+                    "def" : {
+                        "kind" : "TypeWinSVG",
+                        "shape" : "",
+                        "style" : "",
+                        "DrawTime" : 1.0,
+                        "borderColorBlue" : 0.0,
+                        "borderColorGreen" : 0.0,
+                        "borderColorRed" : 1.0,
+                        "borderWidth" : 5.0,
+                        "enable-ligatures" : 0.0,
+                        "flipOnXAxis" : 0.0,
+                        "flipOnYAxis" : 0.0,
+                        "height" : 205.0,
+                        "width" : 397.0,
+                        "filename" : "C:\\Users\\Sotirios\\AppData\\Local\\TechSmith\\Camtasia Studio\\22.0\\Features\\Tools\\Annotations\\Defaults\\anim_drawnoval.svg",
+                        "name" : "",
+                        "resize-behavior" : "resizeCallout",
+                        "xmlContent" : "﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 13.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t width=\"299.75px\" height=\"214.496px\" viewBox=\"0 0 299.75 214.496\" enable-background=\"new 0 0 299.75 214.496\"\n\t xml:space=\"preserve\">\n<path fill=\"none\" d=\"M142.383,0.35c-26-3-55,14-74,24c-69,38-104,133-16,172c54,24,119,23,175,4c40-13,83-43,70-91\n\tc-25-95-141-116-224-99\"/>\n</svg>\n"
+                    },
+                    "attributes" : {
+                      "ident" : "",
+                      "autoRotateText" : true
+                    },
+                    "parameters" : {
+                      "translation0" : -586.97910578609,
+                      "translation1" : 18.5501168907072,
+                      "scale0" : 0.313986252828417,
+                      "scale1" : 0.229474989665152,
+                      "sourceCrop0" : 0.0,
+                      "sourceCrop1" : 0.0,
+                      "sourceCrop2" : 0.0,
+                      "sourceCrop3" : 0.0,
+                      "geometryCrop0" : 0.0,
+                      "geometryCrop1" : 0.0,
+                      "geometryCrop2" : 0.0,
+                      "geometryCrop3" : 0.0
+                    },
+                    "leftEdgeMods" : [
+                      {
+                        "group" : "DrawPercentageFade",
+                        "duration" : 705600000,
+                        "parameters" : [
+                          {
+                            "name" : "DrawTime",
+                              "func" : "FadeInFunc"
+                            }
+                        ]
+                      }
+                    ],
+                    "effects" : [
+
+                    ],
+                    "start" : 24625440000,
+                    "duration" : 7832160000,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 7832160000,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "default-anchor0" : 0.0,
+                      "default-anchor1" : 0.0,
+                      "default-anchor2" : 0.0,
+                      "default-height" : 205.0,
+                      "default-rotation0" : 0.0,
+                      "default-rotation1" : 0.0,
+                      "default-rotation2" : 0.0,
+                      "default-scale0" : 1.0,
+                      "default-scale1" : 1.0,
+                      "default-scale2" : 1.0,
+                      "default-shear0" : 0.0,
+                      "default-shear1" : 0.0,
+                      "default-shear2" : 0.0,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0,
+                      "default-translation2" : 0.0,
+                      "default-width" : 397.0
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 17,
+                    "_type" : "Callout",
+                    "def" : {
+                        "kind" : "TypeWinSVG",
+                        "shape" : "",
+                        "style" : "",
+                        "DrawTime" : 1.0,
+                        "borderColorBlue" : 0.0,
+                        "borderColorGreen" : 0.0,
+                        "borderColorRed" : 1.0,
+                        "borderWidth" : 5.0,
+                        "enable-ligatures" : 0.0,
+                        "flipOnXAxis" : 0.0,
+                        "flipOnYAxis" : 0.0,
+                        "height" : 205.0,
+                        "width" : 397.0,
+                        "filename" : "C:\\Users\\Sotirios\\AppData\\Local\\TechSmith\\Camtasia Studio\\22.0\\Features\\Tools\\Annotations\\Defaults\\anim_drawnoval.svg",
+                        "name" : "",
+                        "resize-behavior" : "resizeCallout",
+                        "xmlContent" : "﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 13.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t width=\"299.75px\" height=\"214.496px\" viewBox=\"0 0 299.75 214.496\" enable-background=\"new 0 0 299.75 214.496\"\n\t xml:space=\"preserve\">\n<path fill=\"none\" d=\"M142.383,0.35c-26-3-55,14-74,24c-69,38-104,133-16,172c54,24,119,23,175,4c40-13,83-43,70-91\n\tc-25-95-141-116-224-99\"/>\n</svg>\n"
+                    },
+                    "attributes" : {
+                      "ident" : "",
+                      "autoRotateText" : true
+                    },
+                    "parameters" : {
+                      "translation0" : -604.542226767972,
+                      "translation1" : -120.119519458692,
+                      "scale0" : 0.215749477009777,
+                      "scale1" : 0.189375775113685,
+                      "sourceCrop0" : 0.0,
+                      "sourceCrop1" : 0.0,
+                      "sourceCrop2" : 0.0,
+                      "sourceCrop3" : 0.0,
+                      "geometryCrop0" : 0.0,
+                      "geometryCrop1" : 0.0,
+                      "geometryCrop2" : 0.0,
+                      "geometryCrop3" : 0.0
+                    },
+                    "leftEdgeMods" : [
+                      {
+                        "group" : "DrawPercentageFade",
+                        "duration" : 705600000,
+                        "parameters" : [
+                          {
+                            "name" : "DrawTime",
+                              "func" : "FadeInFunc"
+                            }
+                        ]
+                      }
+                    ],
+                    "effects" : [
+
+                    ],
+                    "start" : 32457600000,
+                    "duration" : 14441280000,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 14441280000,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "default-anchor0" : 0.0,
+                      "default-anchor1" : 0.0,
+                      "default-anchor2" : 0.0,
+                      "default-height" : 205.0,
+                      "default-rotation0" : 0.0,
+                      "default-rotation1" : 0.0,
+                      "default-rotation2" : 0.0,
+                      "default-scale0" : 1.0,
+                      "default-scale1" : 1.0,
+                      "default-scale2" : 1.0,
+                      "default-shear0" : 0.0,
+                      "default-shear1" : 0.0,
+                      "default-shear2" : 0.0,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0,
+                      "default-translation2" : 0.0,
+                      "default-width" : 397.0
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ],
+                "transitions" : [
+                  {
+                    "name" : "Fade",
+                    "duration" : 705600000,
+                    "leftMedia" : 15,
+                    "attributes" : {
+                      "bypass" : false,
+                      "reverse" : false,
+                      "trivial" : false,
+                      "useAudioPreRoll" : true,
+                      "useVisualPreRoll" : true
+                    }
+
+                  },
+                  {
+                    "name" : "Fade",
+                    "duration" : 705600000,
+                    "leftMedia" : 16,
+                    "attributes" : {
+                      "bypass" : false,
+                      "reverse" : false,
+                      "trivial" : false,
+                      "useAudioPreRoll" : true,
+                      "useVisualPreRoll" : true
+                    }
+
+                  },
+                  {
+                    "name" : "Fade",
+                    "duration" : 705600000,
+                    "leftMedia" : 17,
+                    "attributes" : {
+                      "bypass" : false,
+                      "reverse" : false,
+                      "trivial" : false,
+                      "useAudioPreRoll" : true,
+                      "useVisualPreRoll" : true
+                    }
+
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 5,
+                "medias" : [
+                  {
+                    "id" : 18,
+                    "_type" : "Callout",
+                    "def" : {
+                        "kind" : "TypeWinSVG",
+                        "shape" : "",
+                        "style" : "",
+                        "DrawTime" : {
+                          "type" : "double",
+                          "defaultValue" : 1.0,
+                          "interp" : "linr"
+                        },
+                        "borderColorBlue" : {
+                          "type" : "double",
+                          "defaultValue" : 0.0,
+                          "interp" : "linr"
+                        },
+                        "borderColorGreen" : {
+                          "type" : "double",
+                          "defaultValue" : 0.0,
+                          "interp" : "linr"
+                        },
+                        "borderColorRed" : {
+                          "type" : "double",
+                          "defaultValue" : 1.0,
+                          "interp" : "linr"
+                        },
+                        "borderWidth" : {
+                          "type" : "double",
+                          "defaultValue" : 5.0,
+                          "interp" : "linr"
+                        },
+                        "enable-ligatures" : {
+                          "type" : "double",
+                          "defaultValue" : 0.0,
+                          "interp" : "linr"
+                        },
+                        "flipOnXAxis" : {
+                          "type" : "double",
+                          "defaultValue" : 0.0,
+                          "interp" : "linr"
+                        },
+                        "flipOnYAxis" : {
+                          "type" : "double",
+                          "defaultValue" : 0.0,
+                          "interp" : "linr"
+                        },
+                        "height" : {
+                          "type" : "double",
+                          "defaultValue" : 205.0,
+                          "interp" : "linr"
+                        },
+                        "width" : {
+                          "type" : "double",
+                          "defaultValue" : 397.0,
+                          "interp" : "linr"
+                        },
+                        "filename" : "C:\\Users\\sotirios\\AppData\\Local\\TechSmith\\Camtasia Studio\\22.0\\Features\\Tools\\Annotations\\Defaults\\anim_straightline.svg",
+                        "name" : "",
+                        "resize-behavior" : "resizeCallout",
+                        "xmlContent" : "﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t width=\"128px\" height=\"109px\" viewBox=\"0 0 128 109\" enable-background=\"new 0 0 128 109\" xml:space=\"preserve\">\n<path fill=\"none\" d=\"M 0 50 L 128 49\"/>\n</svg>\n"
+                    },
+                    "attributes" : {
+                      "ident" : "",
+                      "autoRotateText" : true
+                    },
+                    "parameters" : {
+                      "translation0" : {
+                        "type" : "double",
+                        "defaultValue" : -18.243096325288,
+                        "interp" : "eioe"
+                      },
+                      "translation1" : {
+                        "type" : "double",
+                        "defaultValue" : 17.2739275240111,
+                        "interp" : "eioe"
+                      },
+                      "scale0" : {
+                        "type" : "double",
+                        "defaultValue" : 3.15641703016526,
+                        "interp" : "eioe"
+                      },
+                      "scale1" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0346222486615109,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop0" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop1" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop2" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop3" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop0" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop1" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop2" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop3" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      }
+                    },
+                    "leftEdgeMods" : [
+                      {
+                        "group" : "DrawPercentageFade",
+                        "duration" : 3528000000,
+                        "parameters" : [
+                          {
+                            "name" : "DrawTime",
+                              "func" : "FadeInFunc"
+                            }
+                        ]
+                      }
+                    ],
+                    "effects" : [
+
+                    ],
+                    "start" : 10936800000,
+                    "duration" : 5668320000,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 5668320000,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "default-anchor0" : 0.0,
+                      "default-anchor1" : 0.0,
+                      "default-anchor2" : 0.0,
+                      "default-height" : 205.0,
+                      "default-legacy-drawtime-duration" : 1.0,
+                      "default-rotation0" : 0.0,
+                      "default-rotation1" : 0.0,
+                      "default-rotation2" : 0.0,
+                      "default-scale0" : 1.0,
+                      "default-scale1" : 1.0,
+                      "default-scale2" : 1.0,
+                      "default-shear0" : 0.0,
+                      "default-shear1" : 0.0,
+                      "default-shear2" : 0.0,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0,
+                      "default-translation2" : 0.0,
+                      "default-width" : 397.0
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 19,
+                    "_type" : "Callout",
+                    "def" : {
+                        "kind" : "TypeWinSVG",
+                        "shape" : "",
+                        "style" : "",
+                        "DrawTime" : 1.0,
+                        "borderColorBlue" : 0.0,
+                        "borderColorGreen" : 0.0,
+                        "borderColorRed" : 1.0,
+                        "borderWidth" : 5.0,
+                        "enable-ligatures" : 0.0,
+                        "flipOnXAxis" : 0.0,
+                        "flipOnYAxis" : 0.0,
+                        "height" : 205.0,
+                        "width" : 397.0,
+                        "filename" : "C:\\Users\\Sotirios\\AppData\\Local\\TechSmith\\Camtasia Studio\\22.0\\Features\\Tools\\Annotations\\Defaults\\anim_drawnoval.svg",
+                        "name" : "",
+                        "resize-behavior" : "resizeCallout",
+                        "xmlContent" : "﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 13.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t width=\"299.75px\" height=\"214.496px\" viewBox=\"0 0 299.75 214.496\" enable-background=\"new 0 0 299.75 214.496\"\n\t xml:space=\"preserve\">\n<path fill=\"none\" d=\"M142.383,0.35c-26-3-55,14-74,24c-69,38-104,133-16,172c54,24,119,23,175,4c40-13,83-43,70-91\n\tc-25-95-141-116-224-99\"/>\n</svg>\n"
+                    },
+                    "attributes" : {
+                      "ident" : "",
+                      "autoRotateText" : true
+                    },
+                    "parameters" : {
+                      "translation0" : -444.017241379309,
+                      "translation1" : 17.5501168907072,
+                      "scale0" : 0.269905648294412,
+                      "scale1" : 0.239231087226127,
+                      "sourceCrop0" : 0.0,
+                      "sourceCrop1" : 0.0,
+                      "sourceCrop2" : 0.0,
+                      "sourceCrop3" : 0.0,
+                      "geometryCrop0" : 0.0,
+                      "geometryCrop1" : 0.0,
+                      "geometryCrop2" : 0.0,
+                      "geometryCrop3" : 0.0
+                    },
+                    "leftEdgeMods" : [
+                      {
+                        "group" : "DrawPercentageFade",
+                        "duration" : 705600000,
+                        "parameters" : [
+                          {
+                            "name" : "DrawTime",
+                              "func" : "FadeInFunc"
+                            }
+                        ]
+                      }
+                    ],
+                    "effects" : [
+
+                    ],
+                    "start" : 25284000000,
+                    "duration" : 7173600000,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 7173600000,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "default-anchor0" : 0.0,
+                      "default-anchor1" : 0.0,
+                      "default-anchor2" : 0.0,
+                      "default-height" : 205.0,
+                      "default-rotation0" : 0.0,
+                      "default-rotation1" : 0.0,
+                      "default-rotation2" : 0.0,
+                      "default-scale0" : 1.0,
+                      "default-scale1" : 1.0,
+                      "default-scale2" : 1.0,
+                      "default-shear0" : 0.0,
+                      "default-shear1" : 0.0,
+                      "default-shear2" : 0.0,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0,
+                      "default-translation2" : 0.0,
+                      "default-width" : 397.0
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 20,
+                    "_type" : "Callout",
+                    "def" : {
+                        "kind" : "TypeWinSVG",
+                        "shape" : "",
+                        "style" : "",
+                        "DrawTime" : 1.0,
+                        "borderColorBlue" : 0.0,
+                        "borderColorGreen" : 0.0,
+                        "borderColorRed" : 1.0,
+                        "borderWidth" : 5.0,
+                        "enable-ligatures" : 0.0,
+                        "flipOnXAxis" : 0.0,
+                        "flipOnYAxis" : 0.0,
+                        "height" : 205.0,
+                        "width" : 397.0,
+                        "filename" : "C:\\Users\\Sotirios\\AppData\\Local\\TechSmith\\Camtasia Studio\\22.0\\Features\\Tools\\Annotations\\Defaults\\anim_drawnoval.svg",
+                        "name" : "",
+                        "resize-behavior" : "resizeCallout",
+                        "xmlContent" : "﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 13.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t width=\"299.75px\" height=\"214.496px\" viewBox=\"0 0 299.75 214.496\" enable-background=\"new 0 0 299.75 214.496\"\n\t xml:space=\"preserve\">\n<path fill=\"none\" d=\"M142.383,0.35c-26-3-55,14-74,24c-69,38-104,133-16,172c54,24,119,23,175,4c40-13,83-43,70-91\n\tc-25-95-141-116-224-99\"/>\n</svg>\n"
+                    },
+                    "attributes" : {
+                      "ident" : "",
+                      "autoRotateText" : true
+                    },
+                    "parameters" : {
+                      "translation0" : -464.13968439509,
+                      "translation1" : -121.619519458692,
+                      "scale0" : 0.350510182299449,
+                      "scale1" : 0.218644067796611,
+                      "sourceCrop0" : 0.0,
+                      "sourceCrop1" : 0.0,
+                      "sourceCrop2" : 0.0,
+                      "sourceCrop3" : 0.0,
+                      "geometryCrop0" : 0.0,
+                      "geometryCrop1" : 0.0,
+                      "geometryCrop2" : 0.0,
+                      "geometryCrop3" : 0.0
+                    },
+                    "leftEdgeMods" : [
+                      {
+                        "group" : "DrawPercentageFade",
+                        "duration" : 705600000,
+                        "parameters" : [
+                          {
+                            "name" : "DrawTime",
+                              "func" : "FadeInFunc"
+                            }
+                        ]
+                      }
+                    ],
+                    "effects" : [
+
+                    ],
+                    "start" : 33116160000,
+                    "duration" : 13782720000,
+                    "mediaStart" : 0,
+                    "mediaDuration" : 13782720000,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "default-anchor0" : 0.0,
+                      "default-anchor1" : 0.0,
+                      "default-anchor2" : 0.0,
+                      "default-height" : 205.0,
+                      "default-rotation0" : 0.0,
+                      "default-rotation1" : 0.0,
+                      "default-rotation2" : 0.0,
+                      "default-scale0" : 1.0,
+                      "default-scale1" : 1.0,
+                      "default-scale2" : 1.0,
+                      "default-shear0" : 0.0,
+                      "default-shear1" : 0.0,
+                      "default-shear2" : 0.0,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0,
+                      "default-translation2" : 0.0,
+                      "default-width" : 397.0
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ],
+                "transitions" : [
+                  {
+                    "name" : "Fade",
+                    "duration" : 705600000,
+                    "leftMedia" : 18,
+                    "attributes" : {
+                      "bypass" : false,
+                      "reverse" : false,
+                      "trivial" : false,
+                      "useAudioPreRoll" : true,
+                      "useVisualPreRoll" : true
+                    }
+
+                  },
+                  {
+                    "name" : "Fade",
+                    "duration" : 705600000,
+                    "leftMedia" : 19,
+                    "attributes" : {
+                      "bypass" : false,
+                      "reverse" : false,
+                      "trivial" : false,
+                      "useAudioPreRoll" : true,
+                      "useVisualPreRoll" : true
+                    }
+
+                  },
+                  {
+                    "name" : "Fade",
+                    "duration" : 705600000,
+                    "leftMedia" : 20,
+                    "attributes" : {
+                      "bypass" : false,
+                      "reverse" : false,
+                      "trivial" : false,
+                      "useAudioPreRoll" : true,
+                      "useVisualPreRoll" : true
+                    }
+
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 6,
+                "medias" : [
+                  {
+                    "id" : 21,
+                    "_type" : "Callout",
+                    "def" : {
+                        "kind" : "TypeWinSVG",
+                        "shape" : "",
+                        "style" : "",
+                        "DrawTime" : {
+                          "type" : "double",
+                          "defaultValue" : 1.0,
+                          "interp" : "linr"
+                        },
+                        "borderColorBlue" : {
+                          "type" : "double",
+                          "defaultValue" : 0.0,
+                          "interp" : "linr"
+                        },
+                        "borderColorGreen" : {
+                          "type" : "double",
+                          "defaultValue" : 0.0,
+                          "interp" : "linr"
+                        },
+                        "borderColorRed" : {
+                          "type" : "double",
+                          "defaultValue" : 1.0,
+                          "interp" : "linr"
+                        },
+                        "borderWidth" : {
+                          "type" : "double",
+                          "defaultValue" : 5.0,
+                          "interp" : "linr"
+                        },
+                        "enable-ligatures" : {
+                          "type" : "double",
+                          "defaultValue" : 0.0,
+                          "interp" : "linr"
+                        },
+                        "flipOnXAxis" : {
+                          "type" : "double",
+                          "defaultValue" : 0.0,
+                          "interp" : "linr"
+                        },
+                        "flipOnYAxis" : {
+                          "type" : "double",
+                          "defaultValue" : 0.0,
+                          "interp" : "linr"
+                        },
+                        "height" : {
+                          "type" : "double",
+                          "defaultValue" : 205.0,
+                          "interp" : "linr"
+                        },
+                        "width" : {
+                          "type" : "double",
+                          "defaultValue" : 397.0,
+                          "interp" : "linr"
+                        },
+                        "filename" : "C:\\Users\\sotirios\\AppData\\Local\\TechSmith\\Camtasia Studio\\22.0\\Features\\Tools\\Annotations\\Defaults\\anim_straightline.svg",
+                        "name" : "",
+                        "resize-behavior" : "resizeCallout",
+                        "xmlContent" : "﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t width=\"128px\" height=\"109px\" viewBox=\"0 0 128 109\" enable-background=\"new 0 0 128 109\" xml:space=\"preserve\">\n<path fill=\"none\" d=\"M 0 50 L 128 49\"/>\n</svg>\n"
+                    },
+                    "attributes" : {
+                      "ident" : "",
+                      "autoRotateText" : true
+                    },
+                    "parameters" : {
+                      "translation0" : {
+                        "type" : "double",
+                        "defaultValue" : -10.3065883887801,
+                        "interp" : "eioe"
+                      },
+                      "translation1" : {
+                        "type" : "double",
+                        "defaultValue" : -23.9959137458301,
+                        "interp" : "eioe"
+                      },
+                      "scale0" : {
+                        "type" : "double",
+                        "defaultValue" : 3.15641703016526,
+                        "interp" : "eioe"
+                      },
+                      "scale1" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0346222486615109,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop0" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop1" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop2" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop3" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop0" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop1" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop2" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop3" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      }
+                    },
+                    "leftEdgeMods" : [
+                      {
+                        "group" : "DrawPercentageFade",
+                        "duration" : 3528000000,
+                        "parameters" : [
+                          {
+                            "name" : "DrawTime",
+                              "func" : "FadeInFunc"
+                            }
+                        ]
+                      }
+                    ],
+                    "effects" : [
+
+                    ],
+                    "start" : 14958720000,
+                    "duration" : 5150880000,
+                    "mediaStart" : 1317120000,
+                    "mediaDuration" : 5150880000,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "default-anchor0" : 0.0,
+                      "default-anchor1" : 0.0,
+                      "default-anchor2" : 0.0,
+                      "default-height" : 205.0,
+                      "default-legacy-drawtime-duration" : 1.0,
+                      "default-rotation0" : 0.0,
+                      "default-rotation1" : 0.0,
+                      "default-rotation2" : 0.0,
+                      "default-scale0" : 1.0,
+                      "default-scale1" : 1.0,
+                      "default-scale2" : 1.0,
+                      "default-shear0" : 0.0,
+                      "default-shear1" : 0.0,
+                      "default-shear2" : 0.0,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0,
+                      "default-translation2" : 0.0,
+                      "default-width" : 397.0
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ],
+                "transitions" : [
+                  {
+                    "name" : "Fade",
+                    "duration" : 705600000,
+                    "leftMedia" : 21,
+                    "attributes" : {
+                      "bypass" : false,
+                      "reverse" : false,
+                      "trivial" : false,
+                      "useAudioPreRoll" : true,
+                      "useVisualPreRoll" : true
+                    }
+
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 7,
+                "medias" : [
+                  {
+                    "id" : 22,
+                    "_type" : "Callout",
+                    "def" : {
+                        "kind" : "TypeWinSVG",
+                        "shape" : "",
+                        "style" : "",
+                        "DrawTime" : {
+                          "type" : "double",
+                          "defaultValue" : 1.0,
+                          "interp" : "linr"
+                        },
+                        "borderColorBlue" : {
+                          "type" : "double",
+                          "defaultValue" : 0.0,
+                          "interp" : "linr"
+                        },
+                        "borderColorGreen" : {
+                          "type" : "double",
+                          "defaultValue" : 0.0,
+                          "interp" : "linr"
+                        },
+                        "borderColorRed" : {
+                          "type" : "double",
+                          "defaultValue" : 1.0,
+                          "interp" : "linr"
+                        },
+                        "borderWidth" : {
+                          "type" : "double",
+                          "defaultValue" : 5.0,
+                          "interp" : "linr"
+                        },
+                        "enable-ligatures" : {
+                          "type" : "double",
+                          "defaultValue" : 0.0,
+                          "interp" : "linr"
+                        },
+                        "flipOnXAxis" : {
+                          "type" : "double",
+                          "defaultValue" : 0.0,
+                          "interp" : "linr"
+                        },
+                        "flipOnYAxis" : {
+                          "type" : "double",
+                          "defaultValue" : 0.0,
+                          "interp" : "linr"
+                        },
+                        "height" : {
+                          "type" : "double",
+                          "defaultValue" : 205.0,
+                          "interp" : "linr"
+                        },
+                        "width" : {
+                          "type" : "double",
+                          "defaultValue" : 397.0,
+                          "interp" : "linr"
+                        },
+                        "filename" : "C:\\Users\\sotirios\\AppData\\Local\\TechSmith\\Camtasia Studio\\22.0\\Features\\Tools\\Annotations\\Defaults\\anim_straightline.svg",
+                        "name" : "",
+                        "resize-behavior" : "resizeCallout",
+                        "xmlContent" : "﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t width=\"128px\" height=\"109px\" viewBox=\"0 0 128 109\" enable-background=\"new 0 0 128 109\" xml:space=\"preserve\">\n<path fill=\"none\" d=\"M 0 50 L 128 49\"/>\n</svg>\n"
+                    },
+                    "attributes" : {
+                      "ident" : "",
+                      "autoRotateText" : true
+                    },
+                    "parameters" : {
+                      "translation0" : {
+                        "type" : "double",
+                        "defaultValue" : -150.78277886497,
+                        "interp" : "eioe"
+                      },
+                      "translation1" : {
+                        "type" : "double",
+                        "defaultValue" : -66.0594058093221,
+                        "interp" : "eioe"
+                      },
+                      "scale0" : {
+                        "type" : "double",
+                        "defaultValue" : 2.44872841315674,
+                        "interp" : "eioe"
+                      },
+                      "scale1" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0113934449449027,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop0" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop1" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop2" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "sourceCrop3" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop0" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop1" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop2" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      },
+                      "geometryCrop3" : {
+                        "type" : "double",
+                        "defaultValue" : 0.0,
+                        "interp" : "eioe"
+                      }
+                    },
+                    "leftEdgeMods" : [
+                      {
+                        "group" : "DrawPercentageFade",
+                        "duration" : 3316320000,
+                        "parameters" : [
+                          {
+                            "name" : "DrawTime",
+                              "func" : "FadeInFunc"
+                            }
+                        ]
+                      }
+                    ],
+                    "effects" : [
+
+                    ],
+                    "start" : 19427520000,
+                    "duration" : 3316320000,
+                    "mediaStart" : 1317120000,
+                    "mediaDuration" : 3316320000,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "default-anchor0" : 0.0,
+                      "default-anchor1" : 0.0,
+                      "default-anchor2" : 0.0,
+                      "default-height" : 205.0,
+                      "default-legacy-drawtime-duration" : 1.0,
+                      "default-rotation0" : 0.0,
+                      "default-rotation1" : 0.0,
+                      "default-rotation2" : 0.0,
+                      "default-scale0" : 1.0,
+                      "default-scale1" : 1.0,
+                      "default-scale2" : 1.0,
+                      "default-shear0" : 0.0,
+                      "default-shear1" : 0.0,
+                      "default-shear2" : 0.0,
+                      "default-translation0" : 0.0,
+                      "default-translation1" : 0.0,
+                      "default-translation2" : 0.0,
+                      "default-width" : 397.0
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ],
+                "transitions" : [
+                  {
+                    "name" : "Fade",
+                    "duration" : 705600000,
+                    "leftMedia" : 22,
+                    "attributes" : {
+                      "bypass" : false,
+                      "reverse" : false,
+                      "trivial" : false,
+                      "useAudioPreRoll" : true,
+                      "useVisualPreRoll" : true
+                    }
+
+                  }
+                ]
+              }            ]
+          }
+        }
+      ]
+    },
+    "trackAttributes" : [
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "matte" : 0,
+        "solo" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "matte" : 0,
+        "solo" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "matte" : 0,
+        "solo" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "matte" : 0,
+        "solo" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "matte" : 0,
+        "solo" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "matte" : 0,
+        "solo" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "matte" : 0,
+        "solo" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "matte" : 0,
+        "solo" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      }
+    ],
+    "captionAttributes" : {
+      "enabled" : true,
+      "fontName" : "Arial",
+      "fontSize" : 48,
+      "backgroundColor" : [ 0, 0, 0, 191],
+      "foregroundColor" : [ 255, 255, 255, 255],
+      "lang" : "en",
+      "alignment" : 0,
+      "defaultFontSize" : true,
+      "opacity" : 0.5,
+      "backgroundEnabled" : true,
+      "backgroundOnlyAroundText" : true
+    },
+    "gain" : 1.0,
+    "legacyAttenuateAudioMix" : false,
+    "backgroundColor" : [ 0, 0, 0, 255]
+  },
+  "metadata" : {
+    "AutoSaveFile" : "C:\\Users\\sotirios\\AppData\\Local\\TechSmith\\Camtasia Studio\\22.0\\Auto-Saves\\Overlap5bf0c41.autosave.tscproj",
+    "CanvasZoom" : 63,
+    "Date" : "2022-10-18 01:07:14 PM",
+    "Fit" : 1,
+    "IsAutoSave" : false,
+    "IsStandalone" : true,
+    "Language" : "ENU",
+    "ProfileName" : "",
+    "ProjectDimensionsChanged" : "1",
+    "ProjectThumbnail" : "iVBORw0KGgoAAAANSUhEUgAAAoAAAAFKCAYAAACNVu5sAAAAAXNSR0IArs4c6QAAAARnQU1BAACx\r\njwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAB8JSURBVHhe7d0HuBxV3T9wK/aGvfcGUgyIIPKC\r\nfyyIr4gif0VEAcGGYBdDCM2AkRpEelEggNIkLxh6EQxFeg0QeJEumpvcm3vTy3mf35ndvXvn7k3B\r\noJecz+d5zpPc3dnZmTMzZ797zszsM57xjGekp7q88pWvTF1dXQkAgM6OOeaYQRnqKSyDHljuRQAE\r\nAFg8ARAAoDACIABAYQRAAIDCCIAAAIURAAEACiMAAgAURgAEACiMAAgAUBgBEACgMAIgAEBhBEAA\r\ngMIIgAAAhREAAQAKIwACABRGAAQAKIwACABQGAEQAKAwAiAAQGEEQACAwgiAAACFEQABAAojAAIA\r\nFEYABAAojAAIAFAYARAAoDACIABAYQRAAIDCCIAAAIURAAEACiMAAgAURgAEACiMAAgAUBgBEACg\r\nMAIgw0pfX1+aPXt2/WEAYDkSABk27r///rThhhum7bbbLs2ZM6f+NACwnAiATwMPPPBAOvvss9OB\r\nBx6Ydt999zR69Oh08MEHp4kTJ6bHHnusPvnT1vXXX5+e97znpdVXXz319vbWnwYAlhMBcBibMmVK\r\n+u53v5ve8IY3DFrPZnn3u9+dxo4dm7q7u+svf9q54YYb0otf/OI0YsQIARAAnkIC4DB12WWXpbe+\r\n9a15nd7ylrekXXbZJZ1++ulp0qRJ6dJLL01HHXVU2nzzzdNKK62Up9l0003T3//+9/psnlaaAXCt\r\ntdYSAAHgKSQADkM33nhjq9dvxx13TA899FB9kpYLL7wwrbrqqnnaL3zhC2nWrFn1SZ42BEAA+PcQ\r\nAIeZCD6f/vSn87p8+9vfTvPmzatPMsi1116bXv/61+fXHHvssfWnnzYEQAD49xAAh5kJEybk9Yhz\r\n+x599NH600MaM2ZMft36668/IDwtWrQol6W1cOHC+kMDxLx6enryOYdz586tP73U4vX1kLcsAXDB\r\nggWt5VjaXs9O9dCcz4wZM+pPAcAKSwAcZr72ta/l9dhrr73qTy1WXDCy8sorp+c///npqquuyo9F\r\nQPvJT36SPvOZz6Q77rij/pJB4irjj3/847lHse7xxx/PVx5vsskmech5lVVWSRtssEEaOXJkuuuu\r\nu+qTt8Tw9Ze+9KW0//77579vueWW9JWvfCW9//3vz1f7/vjHP27d929JATDCaZwDueuuu6aNNtoo\r\nL0PMZ5111kk77bRT+utf/1p/Sct9992Xz5k8/PDD89+xj4wbNy5tvPHGeT4f+MAH0he/+MV8tXWE\r\nQgBYkQmAw8g///nPHK6e9axndQxhixNh7xOf+ESugyOOOKL1+A477JAfGzVq1IDp6x555JH0xje+\r\nMb3gBS/IIa1dBMo111wzz+fNb35z+uQnP5kD2Nvf/vbWY+ecc86A1zRFKHvuc5+bw9XVV1+d3va2\r\nt6VnP/vZOfzFeY7vete78nqHxQXA6OX73ve+ly96iflFYIuw+rGPfax1scyrX/3qfKFMJ1deeWWe\r\nZvvtt0833XRT+uhHP5r/jvAXoTZC5DOf+cxc97vttpsQCMAKTQAcRm677bb0ohe9KAerJ3NF7ze+\r\n8Y1cBxGUmi666KL82Ac/+MHF3irm1FNPzdN9/vOfHzAMfOedd6Z3vOMd+bnorXv44Yfz4xGQ4h6E\r\n++23Xw50r33ta/PFK3Vxb7+XvexlOWBFuI2weO655+Yh1wcffDA/3zzPcXEB8J577smB8atf/WoO\r\nc9OnT8+Px3LEUPnPfvazvIzvec97OtbdX/7yl/TCF74wB9kIoW9605vS73//+9Z84sbTZ511VnrN\r\na16T53PcccfVZwEAKwwBcBi5+OKL8zp85CMfWerz2trFcGy8fuutt249Fue3rb322vnxuGK4kzg3\r\nbquttsrTnHTSSQOe22abbfLjMe+h7LnnnnmaCKB1EfBim8Tzr3jFK9IVV1xRn6RlcQEw6iNC4FAi\r\nwDV79c4///z60zkAvuQlL8nPR69fvZez6eijj87TrLHGGmnatGn1pwFghSAADiNx/lmsQwxtLuli\r\njE7inLZ4fdwOpt0+++yTH2/vGWwX58fFVcTRMxbn+jXFeYMR2t773vd27FVrip686FGLodjmcG5T\r\nBMCYR7x/8/y7oSwuAC6NZi/gkUceWX+q1QMYPXzXXHNN/emW6E2MHtgYCo77LQLAikgAHEbi/LVY\r\nhzivbf78+fWnl6jZexXn27W7+eab87l9MTzaHvCa4tYx8bq42XS7k08+OT/+zW9+c8DjnUTvW/yM\r\nW/2CkAiA0fO22mqrpb6+vgHP1f2rATAuUonl3XvvvetP5QAYyxfLuaS6jYtWYj6HHHJI/SkAWCEI\r\ngMPIeeedl9chzlNb3Pl6QznooIPy67fbbrsBj8cQ72c/+9n83JlnnjnguRDPRY/X5ZdfPuDxuHAk\r\nXrPFFluk0047LQ8PD1XiooyYtj7M3AyAMay9pHsaLksAjG0cQ8JxkUksd1yoEvdNjGXYY4896pMP\r\nCIAxXLw4P//5z/N8fvSjH9WfAoAVggA4jMRVsnFBRQylLss9AJu+//3v5zqIq1jrTjzxxPxcnNPX\r\n7u67704vfelL80Ua9Xvhfec738mviXAYyxX/Lq686lWvykGrXTMArrfeeku8b+DSBMBLLrkkr0Pc\r\nJzHeL3o26/tAnJNYtywBMG5ZE/P5wQ9+UH8KAFYIAuAwEufixdW0ca5afSh1SdpvAzN+/Pj60/nq\r\n3QiWr3vd6wb8tFyz13DfffcdMH1o9qh9/etfz+fDxcUVQ5WJEyfmsFcfXl1eATDOiYwrjiPERYl7\r\nG44ePToddthh6YQTTsgBd8stt8zL+6/2AI4dOzbP54c//GH9KQBYIQiAw0hcsfvhD384r0cEmmVx\r\n77335ostXv7yl+dz/jr51re+lefdvMVJ3IA5AlGErk5XxUZPYkwfF1c8WcsrAMatY2JZIiDHrW06\r\niXP2Ypp/NQDG7W5iPp3OJQSAFYEAOMzEL3fEekQP15LOmWsXPXjxuk033XTIoHXBBRfkaeK3hkOE\r\ns7ipcrym03vFuX0xfVwU8WQtrwAYF6LEsiwulMUvmcQ0SwqA9V7KdlEPcWPomM8pp5xSfxoAVggC\r\n4DAT5wFGYIpz6uLCi6Vx3XXX5du4xPp3usijKS4sGTFiRL7ZdAwxx5BqvOb444+vT5rdfvvtuUcx\r\nho7jl0KejOURACOwxa1tYlnj5s1DiZ/Pi2mGCoAxtB7nDcaNpIcSvxIS50TGdHF+JACsiATAYajZ\r\nCxj31oteu8WJ8Bc/qxbTx7l6S/oJs+ZNm+PGznFlbpwT2Px1j7o47655S5T4rd24mnhxmr/p2255\r\nBMAQ9zCM5Yjz/jqJYeFmCB7qIpDmjaDjdjhD/dTezjvvnKeJC02WtL4A8HQlAA5D0VMXt16J9Yle\r\nq7gYIy6yiF67Bx54IPdMxdWwERSjhy6m22yzzdLUqVPrsxokfq4tegCbr9txxx3rkwxw66235htE\r\nx7TxM2zxSx5RvxHQ4pcy4qfiYqg0hqzjKuS6ZgBcd911lzoARi9lPQBOmDAh/1ZvnOcY50fGT7jF\r\nr4NEfYwZMya/R/wWcCznUD2Asd4xzcorr5z/jd9Mjp7NCK5/+9vfWrd/ieC9rBfhAMDTiQA4TEXA\r\niSATPXTNdYvgEn/HOsYQcTwWvV7R47W06xzDqZ/61KfyayNQ1e/b10ncY695ccpznvOcPCT8zne+\r\nMwfDZpCM3/vtdOPkuE/fSiutlHv1lhQAm+ckxk2j6wEwejajPuI8vni/WIaYLoZqY5m23XbbPJQd\r\nz3X62brmOYAbbrhhDtPx2pg2fl84fqO4GR7j8csuu6z+cgBYoQiAw9zkyZPzT5vF8G4EtxhKjX+3\r\n3377vPGmTJlSf8kSRRiKoc4DDjggzZw5s/50RxFI4/YyO+ywQ9pggw1yj15cLBEXZ8QviUSvZKch\r\n0/gJubihdPS2Lenn7Z544ok8bdzapdNFKSHCWfQ0xoUsMYQd9RA30A7xk3TRKxq/qVzXfhFILEfc\r\nZzHu9xfziXX53Oc+l39JZKjhcABYkQiATyMRXCIYLSlIPdWiF/E/vRzx3ou7mrduqNvARGgdKmwC\r\nwIpKAKQIQwVAACiRAEgRBEAA6CcAUoS4kCUuRll//fUFQACKJwBShEmTJuUrp5fmfoQAsKITAClC\r\n7BOxs8cVw52uVgaAkgiAAACFEQABAAojAAIAFEYABAAojAAIAFAYARAAoDACIABAYQRAAIDCCIAA\r\nAIURAAEACiMAAgAURgAEACiMAAgAUBgB8N9h0aKUFi5YurIiGGp94/FSLVqY62DR/Llp0bw5aWHv\r\n1LRw+qNpwd+npPmP3J7mP3hLmnfPlWne3VemuXdenObc+MeB5Yaz06wrT0izLjs6zbo8yjFpznV/\r\nSHNuPKdtunPS3DsvTfPuuSrPb8Gjd6UFXQ/n91o0f05KCxfWl2p4WbSwVT9VHf0z11EufdOqdVgw\r\nb8U5TkqT24X5eTsu7O2q9v/H76n2/0HljrRg6oNp4fTH0qJZ3QO3fRxLT6XmsbpgXmtf7FSq5XmK\r\nlwWeQgLgcrZw2iNpzvVn5Q/pvv/ZN/WdsVvqPfVHacYJOy6+HL9DmvG7b6fe03+eek8fmfr+uGea\r\necHBaeaFh1T/LrYckmb9+fg0++pT0uyrx6fZ15yW5t5yXpp72/k5UMy779o0/6Fbc9hYOK3xYTqr\r\nJy2a05cWze5Ni/qmpYV9XdW/0x/L0y14IoLJnfm1UebecXGae+v5ac5NE6r3+MtJaeaFh+b37zt7\r\nz9R3xsi8rnl9T/lBtT619es99YetaarpR+bXNtehWt9xed6tdYkyaXya89cz8vsPKredn+be8qe8\r\nzjFd6zW5nJJmXXZU2/zby8Fp1qVHtr3PKWnOzedW87t1Yl7fat2vS/Puvy7Nf2xyVS+NMv/Ru/Lj\r\nuUyZlObedkF+bYSw/L5XHJtmnn9Q6vvjXnk9Z5y8S66D7sO2TN3jPpemH/jpNH3/T6Rpv9woTRvz\r\n0TTtFx9JXXuulbr2WCt17b5mmvrz9w8qXbt9IHWNWi11jVo9de2+Rpo6ctXaNKukrtFrpq49187z\r\nm7bvBmn6rz6eph+4Seo+bIu8f/WduXte/9mTTs71Nu++a9KCv99bhcQ5fdWH2tJqBra5M9Oi2TPS\r\nojm9VYm/582u5hUfojnUzU6L5s7K08U+FgF17h0XpdnXnJpmXfybXE8zTtopdR/+5Vw/7XWUy0Gb\r\npu5xm6eeo7epjpMzR6WZFx2aXx91n7dVbIvYXktT7r8uh+W8rTvsU639fEkl75unD55HvcQ+em2n\r\nfbSxn15x3IDjuf94OCT1TRhTtQnNY2ZQaR5TA0vVjuzVmu+sPx+X5lx/Zpp7+0V5u+eQ1fVwPu7z\r\ndmuGrGXZB0IOSrFtq7ZkwdS/Vdv3rsuqLy5XHJv6zt0v9Z7yw9Rz3Pap+9DP9+//+21Y7f+dytiN\r\n0/T9P5mmH/yZ/m1/wo6p9+SdU9+Zu6W+P/2qavsuPybXY/4ClI/f6hied/ef+4/Re67q39at7XtK\r\n3h6x/+V2rHWs7pzfp+fIr6TuQzZr7Y8DSyzP19KM330n13Uc67Ov+l1ehnmTr0jzH7w5LfjnA9Vx\r\nFQF2UIn2N46XvtaxEvWf/x7QLk9LC3ueSAueuK9qdx6+vb9NvvOSap1ifa4/a4h9q7GP3nB2W920\r\nl6inK/vrafIVA4+JmPcNZw+c96ST08yLD+v4OTT47/ZycP4C2962xxfXZps7b/LljWP42rz/zH90\r\ncrWet07M7X9/ex7HxC8GHBP5/xPGVO+R94dT0pxrTqu+JN80Ie+L86Zck+bd/9c0/7G7q3a866H8\r\nuVcvud7b6nyoEsdPc3kHtS+NNiZ/oe/UxuTyp1zfud39DxEAl7O+M0elqbu+L38YTx25SvVv6wP6\r\nfWnqru9duvKzKO9ZxvLuRnlPIyysnrr2GJG69vxQmrb3ulWjut+GafrYjVP3IZ9N3Yd/KXX/Zss0\r\n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\r\nw23NY6VRx3koNuq/wzaplzxc+r/XV/tdnAc75eo0d/Llg6brVKr5X57mXH92//ZdDqUajuzwfnf/\r\nOQ9X1qdvlaiDSeMHtQOtEsPMZ40etJ8NVWaeN7Yaam3u/5NOro7hOHUjjt34fInhzKkPVedUtrft\r\nPf9otSnN9i3qubleuUMhljk6FWIIfOIB/W1KtPdHb5O6f/P/q2B5wCZVr1d0FLT3sEYPVi71HsUP\r\nVW18K9RtkXqO2qbah/64V5oV6xL13DjNptkG5s/IGA5tfoZ10r6/L7eyKJ+2kutt2iNVncVnYnwm\r\nxP7YOJUhljlO7YrtkXvDc1sYbe3I3HtbP26i5M6dZnsW2zQ6eaJ9jA6ea0/LdRDv/Z8iALJ0Fsyv\r\nzkuZ3Vt9wOST8x+rTuSOcyUevzuf0L3UJS5OyK+v5pEP/sb8o8TJ4gD8++XzduPLRM8T1ZeJx+9N\r\n8x+9s+ooiPNnb7swfyHtL+fnsBTPz3/olurzIH+xeSwt6pue58fwIwACABRGAAQAKIwACABQGAEQ\r\nAKAwAiAAQGEEQACAwgiAAACFEQABAAojAAIAFEYABAAojAAIAFAYARAAoDACIABAYQRAAIDCCIAA\r\nAIURAAEACiMAAgAURgAEACiMAAgAUBgBEACgMAIgAEBhBEAAgMIIgAAAhREAAQAKIwACABRGAAQA\r\nKIwACABQGAEQAKAwAiAAQGEEQACAwgiAAACFEQABAAojAAIAFEYABAAojAAIAFAYARAAoDACIABA\r\nYQRAAIDCCIAAAIURAAEACiMAAgAURgAEACiMAAgAUBgBEACgMAIgAEBhBEAAgMIIgAAAhREAAQAK\r\nIwACABRGAAQAKIwACABQGAEQAKAwAiAAQGEEQACAwgiAAACFEQABAAojAAIAFEYABAAojAAIAFAY\r\nARAAoDACIABAYQRAAIDCCIAAAIURAAEACiMAAgAURgAEACiMAAgAUBgBEACgMAIgAEBhBEAAgMII\r\ngAAAhREAAQAKIwACABRGAAQAKIwACABQGAEQAKAwAiAAQGEEQACAwgiAAACFEQABAAojAAIAFEYA\r\nBAAojAAIAFAYARAAoDACIABAYQRAAIDCCIAAAIURAAEACiMAAgAURgAEACiMAAgAUBgBEACgMAIg\r\nAEBhBEAAgMIIgAAAhREAAQAKIwACABRGAAQAKIwACABQGAEQAKAwAiAAQGEEQACAwgiAAACFEQAB\r\nAAojAAIAFEYABAAojAAIAFAYARAAoDACIABAYQRAAIDCCIAAAIURAAEACiMAAgAURgAEACiMAAgA\r\nUBgBEACgMAIgAEBhBEAAgMIIgAAAhREAAQAKIwACABRGAAQAKIwACABQGAEQAKAwAiAAQGEEQACA\r\nwgiAAACFEQABAAojAAIAFEYABAAojAAIAFAYARAAoDACIABAYQRAAIDCCIAAAIURAAEACiMAAgAU\r\nRgAEACiMAAgAUBgBEACgMAIgAEBhBEAAgMIIgAAAhREAAQAKIwACABRGAAQAKIwACABQGAEQAKAw\r\nAiAAQGEEQACAwgiAAACFEQABAAojAAIAFEYABAAojAAIAFAYARAAoDACIABAYQRAAIDCCIAAAIUR\r\nAAEACiMAAgAURgAEACiMAAgAUBgBEACgMAIgAEBhBEAAgMIIgAAAhREAAQAKIwACABRGAAQAKIwA\r\nCABQGAEQAKAwAiAAQGEEQACAwgiAAACFEQABAAojAAIAFEYABAAojAAIAFAYARAAoDACIABAYQRA\r\nAIDCCIAAAIURAAEACiMAAgAURgAEACiMAAgAUBgBEACgMAIgAEBhBEAAgMIIgAAAhREAAQAKIwAC\r\nABRGAAQAKIwACABQGAEQAKAwAiAAQGEEQACAwgiAAACFEQABAAojAAIAFEYABAAojAAIAFAYARAA\r\noDACIABAYQRAAIDCCIAAAIURAAEACiMAAgAURgAEACiMAAgAUBgBEACgMAIgAEBhBEAAgMIIgAAA\r\nhREAAQAKIwACABRGAAQAKIwACABQGAEQAKAwAiAAQGEEQACAwgiAAACFEQABAAojAAIAFEYABAAo\r\njAAIAFAYARAAoDACIABAYQRAAIDCCIAAAIURAAEACiMAAgAURgAEACiMAAgAUBgBEACgMAIgAEBh\r\nBEAAgMIIgAAAhREAAQAKIwACABRGAAQAKIwACABQGAEQAKAwAiAAQGEEQACAwvw7A+D/Ab4Z7Xyl\r\nawFMAAAAAElFTkSuQmCC",
+    "RulerGuidesX" : [],
+    "RulerGuidesY" : [],
+    "RulerShowing" : false,
+    "Title" : "Overlap",
+    "audioNarrationNotes" : "",
+    "calloutStyle" : "Basic"
+  }
+}
