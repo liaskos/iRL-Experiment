@@ -1,0 +1,262 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <title>iStar-RL</title>
+  </head>
+  <body>
+    <h1>iStar-RL: Entities and Relationships "cheat sheet"</h1>
+    <h3><a name="entities"></a>Entities</h3>
+    <table width="100%" cellspacing="2" cellpadding="2" border="2">
+      <tbody>
+        <tr>
+          <td valign="top"><b>Entity</b><b><br>
+            </b></td>
+          <td valign="top"><b>Definition</b><b><br>
+            </b></td>
+          <td valign="top"><b>Examples</b><b><br>
+            </b></td>
+        </tr>
+        <tr>
+		  <td valign="top">
+            <img src="Actor.png" style="width:233.7px;height:80px;"></img>
+          </td>
+          <td valign="top">
+            Active, autonomous entity that holds beliefs and aims at achieving goals. Includes humans, machines (e.g., AI), and organizations thereof.
+          </td>
+          <td valign="top">
+            “Inventory Manager”, “Student”, “Travel agency”, “Auto Pilot”, “Canada Revenue
+            Agency”
+          </td>
+        </tr>
+        <tr>
+          <td valign="top"><img src="Goal.png" style="width:233.7px;height:80px;"></img><br>
+          </td>
+          <td valign="top">
+            A state of affairs that an actor wants to achieve<br>
+          </td>
+          <td valign="top">“Have Medical Supplies Replenished”, “Have Invoice Paid”, “Get House Cleaned”,
+            “Have Car Repaired”<br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top"><img src="Task.png" style="width:233.7px;height:80px;"></img><br>
+          </td>
+          <td valign="top">An attempt to an action by an actor, usually with the purpose of achieving some goal<br>
+          </td>
+          <td valign="top">“Order Supplies Online”, “Purchase Supplies from Store”, “Complete Homework Assignment”, “Complete Homework Assignment”, “Write Exam”
+          </td>
+        </tr>
+		<tr>
+          <td valign="top"><img src="SatEffect.png" style="width:233.7px;height:80px;"></img><br>
+          </td>
+          <td valign="top">An outcome of an action attempt (task) that constitutes successful execution of the action<br>
+          </td>
+          <td valign="top">“Order Successfully Received”, “Exam Passed with High Grade”, “Exam Passed with OK Grade”
+          </td>
+        </tr>
+		
+		<tr>
+          <td valign="top"><img src="NegEffect.png" style="width:233.7px;height:80px;"></img><br>
+          </td>
+          <td valign="top">An outcome of an action attempt (task) that constitutes failed execution of the action<br>
+          </td>
+          <td valign="top">“Order Did Not Register”, “Email Failed to Be Sent”, “Participation to Exam was Not Possible”, “Collision was Not Averted”
+          </td>
+        </tr>
+
+		<tr>
+          <td valign="top"><img src="IndirectEffect.png" style="width:233.7px;height:80px;"></img><br>
+          </td>
+          <td valign="top">An outcome that is implied by one or more other effects<br>
+          </td>
+          <td valign="top">“Stock Is Below Reorder Point (after a shipment)”, “Eligible for Graduation/Schollarship (after passing a course)”, “Account Balance below $1,000 (after a withdrawal)”, “Registration Site Open (after enabling it)”
+          </td>
+        </tr>
+				
+		<tr>
+          <td valign="top"><img src="PreEffect.png" style="width:233.7px;height:80px;"></img><br>
+          </td>
+          <td valign="top">The outcome of the previous action attempt<br>
+          </td>
+          <td valign="top">“Stock Was Below Reorder Point (before a shipment)”, “Was Eligible for Graduation/Schollarship (before taking a course)”, “Account Balance was below $1,000 (before a withdrawal)”, “Registration Site Was Open (before attempting to enable it)”
+          </td>
+        </tr>
+		
+		<tr>
+          <td valign="top"><img src="Quality.png" style="width:233.7px;height:80px;"></img><br>
+          </td>
+          <td valign="top">An attribute for which an actor desires some level of achievement<br>
+          </td>
+          <td valign="top">“Expedite Delivery”, “Minimize Costs”, “Safeguard Privacy”, “Avoid Risks”
+          </td>
+        </tr>
+		
+		<tr>
+          <td valign="top"><img src="PreQuality.png" style="width:233.7px;height:80px;"></img><br>
+          </td>
+          <td valign="top">The level of achievement of a quality before the latest action<br>
+          </td>
+          <td valign="top">“Expedite Delivery (before a delivery)”, “Minimize Costs (before a purchase)”, “Safeguard Privacy (before sharing information)”, “Avoid Risks (before purchasing an investment”
+          </td>
+        </tr>
+		
+		
+      </tbody>
+    </table>
+    <h3><br>
+    </h3>
+    <h3><a name="relationships"></a>Relationships</h3>
+    <table width="100%" cellspacing="2" cellpadding="2" border="2">
+      <tbody>
+        <tr>
+          <td valign="top" align="center"><b>Relationship</b><b><br>
+            </b></td>
+          <td valign="top"><b>Definition</b><b><br>
+            </b></td>
+          <td valign="top"><b>Examples</b><b><br>
+            </b></td>
+        </tr>
+        <tr>
+          <td valign="middle" align="center">
+            <img src="Wants.png" style="width:260.45px;height:80px;"><br>(wants relationship)<br><br>
+          </td>
+          <td valign="middle">An agent wants to achieve a specific goal<br>
+          </td>
+          <td valign="middle">
+		   <ul>
+			<li>“John <u>wants-to</u> have house cleaned”</li>
+			<li>“President <u>wants-to</u> have policy announced”,</li>
+			<li>“Contractor <u>wants-to</u> get renovation project
+            completed”</li>
+			</ul> 
+		  </td>
+        </tr>
+        <tr>
+          <td valign="middle" align="center">
+            <img src="AND.png" style="width:260.45px;height:80px;"><br>(AND refinment)<br><br>
+          </td>
+          <td valign="middle">A goal is decomposed into multiple tasks, performance of all of which is necessary for the fulfillment of the parent goal<br>
+          </td>
+          <td valign="middle">
+		  
+<ul>
+  <li>  “[Have Groceries Purchased] <u>is AND-refined to</u> [Go to the Store], [Place Items in Cart], [Pay for Items]”</li>
+  <li>“[Have Course Requirements Fulfilled] <u>is AND-refined to</u> [Enroll Course] AND [Complete [Homework Assignment], [Write Exam]”</li>
+</ul> 
+  
+		  
+          </td>
+        </tr>
+        <tr>
+          <td valign="middle" align="center">
+            <img src="OR.png" style="width:260.45px;height:80px;"><br>(OR refinment)<br><br>
+          </td>
+          <td valign="middle">A goal is decomposed into alternative tasks, one of which suffices for the fulfillment of the parent goal
+          </td>
+          <td valign="middle">
+		  		<ul>
+  		<li>“[Have Bills Paid] <u>is OR-refined to</u> [Pay Bills Online], [Pay Bills at the Bank]”</li>
+  		<li>“[Be at the Appointment in Time] <u>is OR-refined to</u> [Walk to Appointment], [Drive to Appointment], [Take Taxi to Appointment]”</li>
+		</ul>  
+          </td>
+        </tr>
+        <tr>
+          <td valign="middle" align="center">
+		    <img src="NonDetEffect.png" style="width:260.45px;height:80px;"><br> (non-deterministic effect link)<br><br>
+          </td>
+          <td valign="middle">The origin of the link, a task, brings about, upon its attempt, one of the effects of an effect group<br>
+            <br>
+          </td>
+          <td valign="middle">
+
+		<ul>
+  		<li>“[Call Clinic to Talk with Doctor] <u>affects (non-deterministicaly)</u> [Spoke with Doctor], [Spoke with Doctor's Assistant], [No-one Answered]”</li>
+  		<li>“[Applied for Loan] <u>affects (non-deterministicaly)</u> [Application Approved], [Application Conditionally Approved], [Application Rejected]”</li>
+		</ul>  
+
+          </td>
+		</tr>
+		<tr>
+          <td valign="middle" align="center"><img src="DetEffects.png" style="width:260.45px;height:80px;"><br> (deterministic effect link)<br><br>
+          </td>
+          <td valign="middle">The origin of the link, a task, brings about, upon its attempt, a specific effect<br>
+            <br>
+          </td>
+          <td valign="middle">
+		  
+		  
+		<ul>
+  		<li>“[All Money from the Account Successfully Withdrawn] <u>affects (deterministicaly)</u> [Account is Empty]”</li>
+  		<li>“[Document Successfully Shredded] <u>affects (deterministicaly)</u>  [Document Impossible to Copy]”</li>
+		</ul>  
+		  
+          </td>
+        </tr>
+		<tr>
+          <td valign="middle" align="center">
+		  <img src="PosContr.png" style="width:260.45px;height:80px;"><br> (positive contribution)<br><br>
+          </td>
+          <td valign="middle">Satisfaction of the origin positively affects the satisfaction of the destination<br>
+            <br>
+          </td>
+          <td valign="middle">
+		  
+		<ul>
+  		<li>“[Study for Exam] <u>positively contributes to</u> [Increase Chances of Success in Exam]”</li>
+  		<li>“[Item Restocked] <u>positively contributes to</u> [Avoid Out-of-Stock Risk]”</li>
+  		<li>“[Avoid Out-of-Stock Risk] <u>positively contributes to</u> [Increase Revenues]”</li>
+		</ul>  
+          </td>
+        </tr>
+				<tr>
+          <td valign="middle" align="center">
+		  <img src="NegContr.png" style="width:260.45px;height:80px;"><br> (negative contribution)<br><br>
+          </td>
+          <td valign="middle">Satisfaction of the origin negativelly affects the satisfaction of the destination<br>
+            <br>
+          </td>
+          <td valign="middle">
+		  
+		<ul>
+  		<li>“[Reduce Technical Support Staff] <u>negatively contributes to</u> [Keep Customers Happy]”</li>
+  		<li>“[Increase Monetary Supply] <u>negatively contributes to</u> [Avoid Risk of Inflation]”</li>
+		</ul>  
+          </td>
+        </tr>
+		<tr>
+          <td valign="middle" align="center">
+		  <img src="Contr.png" style="width:260.45px;height:80px;"><br> ("plain" contribution) <br><br>
+          </td>
+          <td valign="middle">Satisfaction of the origin affects the satisfaction of the destination (in an unknown or complicated way)<br>
+            <br>
+          </td>
+          <td valign="middle">
+		  
+		<ul>
+  		<li>“[Provide more product options] <u>contributes to</u> [Keep Customers Happy]”</li>
+  		<li>“[Reduce Personnel] <u>contributes to</u> [Increase Profit]”</li>
+		</ul>  
+          </td>
+        </tr>
+		<tr>
+          <td valign="middle" align="center"><img src="Pre.png" style="width:260.45px;height:80px;"><br> (precedence link)
+          </td>
+          <td valign="middle">A task cannot be performed unless the origin goal is satisfied or the origin task is performed.
+           <br>
+          </td>
+          <td valign="middle">
+		  
+		<ul>
+  		<li>“[Depart from origin] <u>precedes</u> [arrive at destination]”</li>
+  		<li>“[Have Ingredients Acquired] <u>precedes</u> [Cook Food]”</li>
+		</ul>  
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <br>
+  
+
+<div id="trend_notification_app" class="trend_notification_app_outer"><div id="trend_notification"><div id="trend_notification_con"></div></div></div><div id="UMS_TOOLTIP" style="position: absolute; cursor: pointer; z-index: 2147483647; background: transparent; top: -100000px; left: -100000px;"></div></body><umsdataelement id="UMSDataElement" style="display: none;"></umsdataelement><div id="tmtoolbar_manual_rating_injected" style="display: none;">init</div><div id="UMSSendDataEventElement" style="display: none;">init</div></html>
